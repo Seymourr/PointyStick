@@ -211,4 +211,108 @@ LogInit: Object subsystem initialized
 [2016.09.20-18.26.31:846][831]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
 [2016.09.20-18.26.31:863][833]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
 [2016.09.20-18.26.33:321][  8]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
-[2016.09.20-18.26.33:738][ 58]LogBlueprintUserMessages: [KeyPressDemo_C
+[2016.09.20-18.26.33:738][ 58]LogBlueprintUserMessages: [KeyPressDemo_C_0] Hello Event Listeners
+[2016.09.20-18.26.33:880][ 75]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.26.34:363][133]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.26.35:363][253]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.26.35:730][297]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.26.36:389][376]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.26.37:739][538]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.26.38:405][618]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.26.38:614][643]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.26.38:772][662]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.26.38:997][689]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.26.39:205][714]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.26.39:397][737]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.26.40:673][890]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-18.26.40:703][890]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-18.38.58:790][919]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: {GameModeName}".
+[2016.09.20-18.39.00:159][ 41]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 111 classes and 0 folders.
+[2016.09.20-18.42.39:008][431]LogSavePackage: Save=103.68ms
+[2016.09.20-18.42.39:008][431]LogSavePackage: Moving '../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Saved/KeyPressDemo_Auto168C8F11042DD8A4EBCD0CEAE5AAF4408.tmp' to '../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Saved/Autosaves/Game/KeyPressDemo_Auto1.umap'
+[2016.09.20-18.42.39:009][431]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Saved/Autosaves/Game/KeyPressDemo_Auto1.umap
+[2016.09.20-18.42.39:011][431]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KeyPressDemo' took 0.142
+[2016.09.20-18.42.39:011][431]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.142
+[2016.09.20-18.45.40:856][506]BlueprintLog: New page: Compile KeyPressDemo
+[2016.09.20-18.45.40:932][506]BlueprintEditorCompileResults: Info [1162.50] Compile of PersistentLevel.KeyPressDemo successful! [in 75 ms] (/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo)
+[2016.09.20-18.45.45:026][990]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KeyPressDemo" FILE="../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Content/KeyPressDemo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.09.20-18.45.45:134][990]LogSavePackage: Save=90.82ms
+[2016.09.20-18.45.45:134][990]LogSavePackage: Moving '../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Saved/KeyPressDemo3BB5A2DD4C458DAA55F790B1E632B438.tmp' to '../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Content/KeyPressDemo.umap'
+[2016.09.20-18.45.45:137][990]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Content/KeyPressDemo.umap
+[2016.09.20-18.45.46:567][159]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-18.45.46:567][159]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.20-18.45.46:567][159]PIE: New page: PIE session: KeyPressDemo (Sep 20, 2016, 9:45:46 PM)
+[2016.09.20-18.45.46:567][159]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KeyPressDemo
+[2016.09.20-18.45.46:570][159]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002524s)
+[2016.09.20-18.45.46:571][159]LogAIModule: Creating AISystem for world KeyPressDemo
+[2016.09.20-18.45.46:571][159]LogPlayLevel: PIE: World Init took: (0.001012s)
+[2016.09.20-18.45.46:571][159]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KeyPressDemo.KeyPressDemo to /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo (0.003775s)
+[2016.09.20-18.45.46:587][159]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.20-18.45.46:598][159]LogInit: FAudioDevice initialized.
+[2016.09.20-18.45.46:645][159]LogWorld: Game class is 'GameMode'
+[2016.09.20-18.45.46:649][159]LogWorld: Bringing World /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo up for play (max tick rate 0) at 2016.09.20-20.45.46
+[2016.09.20-18.45.46:649][159]LogWorld: Bringing up level for play took: 0.002003
+[2016.09.20-18.45.46:651][159]PIE: Info Play in editor start time for /Game/UEDPIE_0_KeyPressDemo 0.94
+[2016.09.20-18.45.46:651][159]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-18.45.47:796][296]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.49:105][453]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.49:106][453]LogBlueprintUserMessages: [KeyPressDemo_C_0] 462.0
+[2016.09.20-18.45.49:106][453]LogBlueprintUserMessages: [KeyPressDemo_C_0] 187.0
+[2016.09.20-18.45.49:555][507]LogBlueprintUserMessages: [KeyPressDemo_C_0] Hello Event Listeners
+[2016.09.20-18.45.50:774][653]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.50:816][658]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.51:297][716]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.51:298][716]LogBlueprintUserMessages: [KeyPressDemo_C_0] 16.0
+[2016.09.20-18.45.51:298][716]LogBlueprintUserMessages: [KeyPressDemo_C_0] 130.0
+[2016.09.20-18.45.52:014][802]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.52:014][802]LogBlueprintUserMessages: [KeyPressDemo_C_0] 0.0
+[2016.09.20-18.45.52:014][802]LogBlueprintUserMessages: [KeyPressDemo_C_0] 147.0
+[2016.09.20-18.45.53:006][921]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.53:006][921]LogBlueprintUserMessages: [KeyPressDemo_C_0] 0.0
+[2016.09.20-18.45.53:006][921]LogBlueprintUserMessages: [KeyPressDemo_C_0] 161.0
+[2016.09.20-18.45.54:306][ 77]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.54:306][ 77]LogBlueprintUserMessages: [KeyPressDemo_C_0] 15.0
+[2016.09.20-18.45.54:306][ 77]LogBlueprintUserMessages: [KeyPressDemo_C_0] 174.0
+[2016.09.20-18.45.54:772][133]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.54:772][133]LogBlueprintUserMessages: [KeyPressDemo_C_0] 15.0
+[2016.09.20-18.45.54:772][133]LogBlueprintUserMessages: [KeyPressDemo_C_0] 174.0
+[2016.09.20-18.45.55:581][230]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.55:581][230]LogBlueprintUserMessages: [KeyPressDemo_C_0] 0.0
+[2016.09.20-18.45.55:581][230]LogBlueprintUserMessages: [KeyPressDemo_C_0] 171.0
+[2016.09.20-18.45.56:931][392]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.56:931][392]LogBlueprintUserMessages: [KeyPressDemo_C_0] 16.0
+[2016.09.20-18.45.56:931][392]LogBlueprintUserMessages: [KeyPressDemo_C_0] 0.0
+[2016.09.20-18.45.57:673][481]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.57:673][481]LogBlueprintUserMessages: [KeyPressDemo_C_0] 480.0
+[2016.09.20-18.45.57:673][481]LogBlueprintUserMessages: [KeyPressDemo_C_0] 99.0
+[2016.09.20-18.45.58:132][536]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.58:132][536]LogBlueprintUserMessages: [KeyPressDemo_C_0] 778.0
+[2016.09.20-18.45.58:132][536]LogBlueprintUserMessages: [KeyPressDemo_C_0] 572.0
+[2016.09.20-18.45.58:431][572]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.58:431][572]LogBlueprintUserMessages: [KeyPressDemo_C_0] 63.0
+[2016.09.20-18.45.58:431][572]LogBlueprintUserMessages: [KeyPressDemo_C_0] 436.0
+[2016.09.20-18.45.58:665][600]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.58:665][600]LogBlueprintUserMessages: [KeyPressDemo_C_0] 388.0
+[2016.09.20-18.45.58:665][600]LogBlueprintUserMessages: [KeyPressDemo_C_0] 0.0
+[2016.09.20-18.45.58:873][625]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.58:873][625]LogBlueprintUserMessages: [KeyPressDemo_C_0] 1142.0
+[2016.09.20-18.45.58:873][625]LogBlueprintUserMessages: [KeyPressDemo_C_0] 312.0
+[2016.09.20-18.45.59:131][656]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.59:131][656]LogBlueprintUserMessages: [KeyPressDemo_C_0] 653.0
+[2016.09.20-18.45.59:131][656]LogBlueprintUserMessages: [KeyPressDemo_C_0] 560.0
+[2016.09.20-18.45.59:381][686]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.59:381][686]LogBlueprintUserMessages: [KeyPressDemo_C_0] 346.0
+[2016.09.20-18.45.59:381][686]LogBlueprintUserMessages: [KeyPressDemo_C_0] 164.0
+[2016.09.20-18.45.59:615][714]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.59:615][714]LogBlueprintUserMessages: [KeyPressDemo_C_0] 1060.0
+[2016.09.20-18.45.59:615][714]LogBlueprintUserMessages: [KeyPressDemo_C_0] 122.0
+[2016.09.20-18.45.59:848][742]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.45.59:848][742]LogBlueprintUserMessages: [KeyPressDemo_C_0] 937.0
+[2016.09.20-18.45.59:848][742]LogBlueprintUserMessages: [KeyPressDemo_C_0] 458.0
+[2016.09.20-18.46.01:940][993]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.46.02:232][ 28]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-18.46.03:107][133]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-18.46.03:139][133]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-18.46.09:798][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KeyPressDemo" FILE="../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Content/KeyPressDemo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.09.20-18.46.09:906][927]LogSavePackage: Save=92.05ms
+[2016.09.20-18.46.09:906][927]LogSavePackage: Moving '../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Saved/KeyPressDemo72AC67F64AA4EDEBA8BE81B3B0E3B088.tmp' to '../../../../../../Users/William/Documents/Unrea
