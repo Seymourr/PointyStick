@@ -315,4 +315,508 @@ LogInit: Object subsystem initialized
 [2016.09.20-18.46.03:139][133]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
 [2016.09.20-18.46.09:798][927]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KeyPressDemo" FILE="../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Content/KeyPressDemo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
 [2016.09.20-18.46.09:906][927]LogSavePackage: Save=92.05ms
-[2016.09.20-18.46.09:906][927]LogSavePackage: Moving '../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Saved/KeyPressDemo72AC67F64AA4EDEBA8BE81B3B0E3B088.tmp' to '../../../../../../Users/William/Documents/Unrea
+[2016.09.20-18.46.09:906][927]LogSavePackage: Moving '../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Saved/KeyPressDemo72AC67F64AA4EDEBA8BE81B3B0E3B088.tmp' to '../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Content/KeyPressDemo.umap'
+[2016.09.20-18.46.09:907][927]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Content/KeyPressDemo.umap
+[2016.09.20-18.51.57:749][679]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: {GameModeName}".
+[2016.09.20-18.53.43:661][734]BlueprintLog: New page: Compile KeyPressDemo
+[2016.09.20-18.53.43:671][734]LogBlueprint:Error: Compiler Error The type of  Array  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.09.20-18.53.43:671][734]LogBlueprint:Error: Compiler Error The type of  [ 0]  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.09.20-18.53.43:671][734]LogBlueprint:Error: Compiler Error The type of  Target Array  is undetermined.  Connect something to  Add  to imply a specific type.
+[2016.09.20-18.53.43:671][734]LogBlueprint:Error: Compiler Error The type of  New Item  is undetermined.  Connect something to  Add  to imply a specific type.
+[2016.09.20-18.53.43:671][734]LogBlueprint:Error: Compiler Error The type of  Variable  is undetermined.  Connect something to  Add  to imply a specific type.
+[2016.09.20-18.53.43:672][734]LogBlueprint:Error: Compiler Error The current value of the ' [ 0] ' pin is invalid: Unsupported type Wildcard on pin [0]
+[2016.09.20-18.53.43:777][734]LogTexture:Display: Building textures: BadBlueprintSprite (BGRA8)
+[2016.09.20-18.53.43:799][734]LogBlueprint:Warning: Compiler Warning [1645.37] Compile of PersistentLevel.KeyPressDemo failed. 6 Fatal Issue(s) 0 Warning(s) [in 137 ms] (/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo)
+[2016.09.20-18.53.43:799][734]BlueprintEditorCompileResults:Error: Error The type of  Array  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.09.20-18.53.43:799][734]BlueprintEditorCompileResults:Error: Error The type of  [ 0]  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.09.20-18.53.43:799][734]BlueprintEditorCompileResults:Error: Error The type of  Target Array  is undetermined.  Connect something to  Add  to imply a specific type.
+[2016.09.20-18.53.43:799][734]BlueprintEditorCompileResults:Error: Error The type of  New Item  is undetermined.  Connect something to  Add  to imply a specific type.
+[2016.09.20-18.53.43:799][734]BlueprintEditorCompileResults:Error: Error The type of  Variable  is undetermined.  Connect something to  Add  to imply a specific type.
+[2016.09.20-18.53.43:799][734]BlueprintEditorCompileResults:Error: Error The current value of the ' [ 0] ' pin is invalid: Unsupported type Wildcard on pin [0]
+[2016.09.20-18.53.43:799][734]BlueprintEditorCompileResults:Warning: Warning [1645.37] Compile of PersistentLevel.KeyPressDemo failed. 6 Fatal Issue(s) 0 Warning(s) [in 137 ms] (/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo)
+[2016.09.20-18.54.39:750][ 72]BlueprintLog: New page: Compile KeyPressDemo
+[2016.09.20-18.54.39:761][ 72]LogBlueprint:Error: Compiler Error The type of  Array  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.09.20-18.54.39:761][ 72]LogBlueprint:Error: Compiler Error The type of  [ 0]  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.09.20-18.54.39:761][ 72]LogBlueprint:Error: Compiler Error The type of  Target Array  is undetermined.  Connect something to  Add  to imply a specific type.
+[2016.09.20-18.54.39:761][ 72]LogBlueprint:Error: Compiler Error The type of  New Item  is undetermined.  Connect something to  Add  to imply a specific type.
+[2016.09.20-18.54.39:761][ 72]LogBlueprint:Error: Compiler Error The type of  Variable  is undetermined.  Connect something to  Add  to imply a specific type.
+[2016.09.20-18.54.39:885][ 72]LogBlueprint:Warning: Compiler Warning [1701.45] Compile of PersistentLevel.KeyPressDemo failed. 5 Fatal Issue(s) 0 Warning(s) [in 135 ms] (/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo)
+[2016.09.20-18.54.39:885][ 72]BlueprintEditorCompileResults:Error: Error The type of  Array  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.09.20-18.54.39:885][ 72]BlueprintEditorCompileResults:Error: Error The type of  [ 0]  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.09.20-18.54.39:885][ 72]BlueprintEditorCompileResults:Error: Error The type of  Target Array  is undetermined.  Connect something to  Add  to imply a specific type.
+[2016.09.20-18.54.39:885][ 72]BlueprintEditorCompileResults:Error: Error The type of  New Item  is undetermined.  Connect something to  Add  to imply a specific type.
+[2016.09.20-18.54.39:885][ 72]BlueprintEditorCompileResults:Error: Error The type of  Variable  is undetermined.  Connect something to  Add  to imply a specific type.
+[2016.09.20-18.54.39:885][ 72]BlueprintEditorCompileResults:Warning: Warning [1701.45] Compile of PersistentLevel.KeyPressDemo failed. 5 Fatal Issue(s) 0 Warning(s) [in 135 ms] (/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo)
+[2016.09.20-18.56.10:278][896]LogBlueprint:Error: Compiler Error The type of  Array  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.09.20-18.56.10:278][896]LogBlueprint:Error: Compiler Error The type of  [ 0]  is undetermined.  Connect something to  Make Array  to imply a specific type.
+[2016.09.20-18.56.10:278][896]LogBlueprint:Error: Compiler Error The type of  Target Array  is undetermined.  Connect something to  Add  to imply a specific type.
+[2016.09.20-18.56.10:278][896]LogBlueprint:Error: Compiler Error The type of  New Item  is undetermined.  Connect something to  Add  to imply a specific type.
+[2016.09.20-18.56.10:278][896]LogBlueprint:Error: Compiler Error The type of  Variable  is undetermined.  Connect something to  Add  to imply a specific type.
+[2016.09.20-18.56.10:377][896]LogBlueprint:Warning: Compiler Warning [1791.95] Compile of PersistentLevel.KeyPressDemo failed. 5 Fatal Issue(s) 0 Warning(s) [in 104 ms] (/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo)
+[2016.09.20-18.56.10:377][896]LogBlueprint:Warning: Compiler Warning [1791.95] Compile of PersistentLevel.KeyPressDemo failed. 5 Fatal Issue(s) 1 Warning(s) [in 0 ms] (/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo)
+[2016.09.20-18.56.10:377][896]LogBlueprint:Warning: Compiler Warning [1791.95] Compile of PersistentLevel.KeyPressDemo failed. 5 Fatal Issue(s) 2 Warning(s) [in 0 ms] (/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo)
+[2016.09.20-18.56.10:377][896]LogBlueprint:Warning: Compiler Warning [1791.95] Compile of PersistentLevel.KeyPressDemo failed. 5 Fatal Issue(s) 3 Warning(s) [in 0 ms] (/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo)
+[2016.09.20-18.56.10:379][896]LogBlueprint:Warning: Compiler Warning [1791.95] Compile of PersistentLevel.KeyPressDemo failed. 5 Fatal Issue(s) 4 Warning(s) [in 1 ms] (/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo)
+[2016.09.20-18.56.10:379][896]LogBlueprint:Warning: Compiler Warning [1791.95] Compile of PersistentLevel.KeyPressDemo failed. 5 Fatal Issue(s) 5 Warning(s) [in 0 ms] (/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo)
+[2016.09.20-18.56.10:414][896]LogSavePackage: Save=145.84ms
+[2016.09.20-18.56.10:414][896]LogSavePackage: Moving '../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Saved/KeyPressDemo_Auto255E200AF4BD2EB127B3003B3BD7325A9.tmp' to '../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Saved/Autosaves/Game/KeyPressDemo_Auto2.umap'
+[2016.09.20-18.56.10:415][896]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Saved/Autosaves/Game/KeyPressDemo_Auto2.umap
+[2016.09.20-18.56.10:416][896]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KeyPressDemo' took 0.174
+[2016.09.20-18.56.10:416][896]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.174
+[2016.09.20-19.00.18:437][573]BlueprintLog: New page: Compile KeyPressDemo
+[2016.09.20-19.00.18:519][573]BlueprintEditorCompileResults: Info [2040.09] Compile of PersistentLevel.KeyPressDemo successful! [in 81 ms] (/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo)
+[2016.09.20-19.02.26:991][138]BlueprintLog: New page: Compile KeyPressDemo
+[2016.09.20-19.02.27:074][138]BlueprintEditorCompileResults: Info [2168.64] Compile of PersistentLevel.KeyPressDemo successful! [in 82 ms] (/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo)
+[2016.09.20-19.02.31:143][611]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/KeyPressDemo" FILE="../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Content/KeyPressDemo.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.09.20-19.02.31:265][611]LogSavePackage: Save=103.08ms
+[2016.09.20-19.02.31:265][611]LogSavePackage: Moving '../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Saved/KeyPressDemoEDFB813B4C32537364F76CA48CA3FB58.tmp' to '../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Content/KeyPressDemo.umap'
+[2016.09.20-19.02.31:268][611]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/William/Documents/Unreal Projects/PointyStick/Content/KeyPressDemo.umap
+[2016.09.20-19.02.33:724][903]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.02.33:724][903]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.20-19.02.33:724][903]PIE: New page: PIE session: KeyPressDemo (Sep 20, 2016, 10:02:33 PM)
+[2016.09.20-19.02.33:724][903]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KeyPressDemo
+[2016.09.20-19.02.33:728][903]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003263s)
+[2016.09.20-19.02.33:728][903]LogAIModule: Creating AISystem for world KeyPressDemo
+[2016.09.20-19.02.33:728][903]LogPlayLevel: PIE: World Init took: (0.000793s)
+[2016.09.20-19.02.33:728][903]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KeyPressDemo.KeyPressDemo to /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo (0.004252s)
+[2016.09.20-19.02.33:747][903]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.20-19.02.33:759][903]LogInit: FAudioDevice initialized.
+[2016.09.20-19.02.33:810][903]LogWorld: Game class is 'GameMode'
+[2016.09.20-19.02.33:813][903]LogWorld: Bringing World /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo up for play (max tick rate 0) at 2016.09.20-21.02.33
+[2016.09.20-19.02.33:814][903]LogWorld: Bringing up level for play took: 0.002217
+[2016.09.20-19.02.33:815][903]PIE: Info Play in editor start time for /Game/UEDPIE_0_KeyPressDemo 0.105
+[2016.09.20-19.02.33:815][903]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.02.36:711][250]LogBlueprintUserMessages: [KeyPressDemo_C_1] Hello Event Listeners
+[2016.09.20-19.02.38:119][419]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.39:694][608]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.40:953][759]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.40:953][759]LogBlueprintUserMessages: [KeyPressDemo_C_1] 673.0
+[2016.09.20-19.02.40:953][759]LogBlueprintUserMessages: [KeyPressDemo_C_1] 159.0
+[2016.09.20-19.02.42:212][910]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.42:212][910]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.43:470][ 61]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.43:470][ 61]LogBlueprintUserMessages: [KeyPressDemo_C_1] 673.0
+[2016.09.20-19.02.43:470][ 61]LogBlueprintUserMessages: [KeyPressDemo_C_1] 159.0
+[2016.09.20-19.02.43:778][ 98]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.43:778][ 98]LogBlueprintUserMessages: [KeyPressDemo_C_1] 673.0
+[2016.09.20-19.02.43:778][ 98]LogBlueprintUserMessages: [KeyPressDemo_C_1] 159.0
+[2016.09.20-19.02.44:061][132]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.44:061][132]LogBlueprintUserMessages: [KeyPressDemo_C_1] 673.0
+[2016.09.20-19.02.44:061][132]LogBlueprintUserMessages: [KeyPressDemo_C_1] 159.0
+[2016.09.20-19.02.44:370][169]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.44:370][169]LogBlueprintUserMessages: [KeyPressDemo_C_1] 673.0
+[2016.09.20-19.02.44:370][169]LogBlueprintUserMessages: [KeyPressDemo_C_1] 159.0
+[2016.09.20-19.02.45:128][260]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.45:128][260]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.45:128][260]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.45:128][260]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.45:128][260]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.45:128][260]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.45:912][354]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.45:912][354]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.45:912][354]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.45:912][354]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.45:912][354]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.45:912][354]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.46:829][464]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.46:829][464]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.46:829][464]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.46:829][464]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.46:829][464]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.46:829][464]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.47:929][596]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.47:929][596]LogBlueprintUserMessages: [KeyPressDemo_C_1] 673.0
+[2016.09.20-19.02.47:929][596]LogBlueprintUserMessages: [KeyPressDemo_C_1] 159.0
+[2016.09.20-19.02.48:537][669]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.48:537][669]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.48:537][669]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.48:537][669]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.48:537][669]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.48:537][669]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.48:537][669]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.49:537][789]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.49:537][789]LogBlueprintUserMessages: [KeyPressDemo_C_1] 673.0
+[2016.09.20-19.02.49:537][789]LogBlueprintUserMessages: [KeyPressDemo_C_1] 159.0
+[2016.09.20-19.02.49:746][814]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.49:746][814]LogBlueprintUserMessages: [KeyPressDemo_C_1] 673.0
+[2016.09.20-19.02.49:746][814]LogBlueprintUserMessages: [KeyPressDemo_C_1] 159.0
+[2016.09.20-19.02.50:004][845]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.50:004][845]LogBlueprintUserMessages: [KeyPressDemo_C_1] 673.0
+[2016.09.20-19.02.50:004][845]LogBlueprintUserMessages: [KeyPressDemo_C_1] 159.0
+[2016.09.20-19.02.50:245][874]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.50:245][874]LogBlueprintUserMessages: [KeyPressDemo_C_1] 673.0
+[2016.09.20-19.02.50:245][874]LogBlueprintUserMessages: [KeyPressDemo_C_1] 159.0
+[2016.09.20-19.02.50:471][901]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.50:471][901]LogBlueprintUserMessages: [KeyPressDemo_C_1] 673.0
+[2016.09.20-19.02.50:471][901]LogBlueprintUserMessages: [KeyPressDemo_C_1] 159.0
+[2016.09.20-19.02.50:712][930]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.50:712][930]LogBlueprintUserMessages: [KeyPressDemo_C_1] 673.0
+[2016.09.20-19.02.50:712][930]LogBlueprintUserMessages: [KeyPressDemo_C_1] 159.0
+[2016.09.20-19.02.50:946][958]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.50:946][958]LogBlueprintUserMessages: [KeyPressDemo_C_1] 673.0
+[2016.09.20-19.02.50:946][958]LogBlueprintUserMessages: [KeyPressDemo_C_1] 159.0
+[2016.09.20-19.02.51:204][989]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.51:204][989]LogBlueprintUserMessages: [KeyPressDemo_C_1] 673.0
+[2016.09.20-19.02.51:204][989]LogBlueprintUserMessages: [KeyPressDemo_C_1] 159.0
+[2016.09.20-19.02.52:096][ 96]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.52:096][ 96]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.52:096][ 96]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.52:096][ 96]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.52:096][ 96]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.52:096][ 96]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.52:096][ 96]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.52:096][ 96]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.52:096][ 96]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.52:096][ 96]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.52:096][ 96]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.52:096][ 96]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.52:096][ 96]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.52:096][ 96]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.52:096][ 96]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.53:913][314]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.53:913][314]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.53:913][314]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.53:913][314]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.53:913][314]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.53:913][314]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.53:913][314]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.53:913][314]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.53:913][314]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.53:913][314]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.53:913][314]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.53:913][314]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.53:913][314]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.53:913][314]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.53:913][314]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.54:630][400]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.54:630][400]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.54:630][400]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.54:630][400]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.54:630][400]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.54:630][400]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.54:630][400]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.54:630][400]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.54:630][400]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.54:630][400]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.54:630][400]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.54:630][400]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.54:630][400]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.54:630][400]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.54:630][400]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.56:380][610]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.56:380][610]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.56:380][610]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.56:380][610]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.56:380][610]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.56:380][610]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.56:380][610]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.56:380][610]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.56:380][610]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.56:380][610]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.56:380][610]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.56:380][610]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.56:380][610]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.56:380][610]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.56:380][610]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.57:088][695]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.57:088][695]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.57:088][695]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.57:088][695]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.57:088][695]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.57:088][695]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.57:088][695]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.57:088][695]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.57:088][695]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.57:088][695]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.57:088][695]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.57:088][695]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.57:088][695]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.57:088][695]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.57:088][695]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.02.59:655][  3]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.02.59:973][ 41]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.03.00:975][161]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.03.01:005][161]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.03.08:585][ 68]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: {GameModeName}".
+[2016.09.20-19.03.14:929][716]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.03.14:929][716]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.20-19.03.14:929][716]PIE: New page: PIE session: KeyPressDemo (Sep 20, 2016, 10:03:14 PM)
+[2016.09.20-19.03.14:929][716]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KeyPressDemo
+[2016.09.20-19.03.14:933][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004236s)
+[2016.09.20-19.03.14:934][716]LogAIModule: Creating AISystem for world KeyPressDemo
+[2016.09.20-19.03.14:934][716]LogPlayLevel: PIE: World Init took: (0.000705s)
+[2016.09.20-19.03.14:934][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KeyPressDemo.KeyPressDemo to /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo (0.005127s)
+[2016.09.20-19.03.14:950][716]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.20-19.03.14:961][716]LogInit: FAudioDevice initialized.
+[2016.09.20-19.03.15:010][716]LogWorld: Game class is 'GameMode'
+[2016.09.20-19.03.15:012][716]LogWorld: Bringing World /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo up for play (max tick rate 0) at 2016.09.20-21.03.15
+[2016.09.20-19.03.15:013][716]LogWorld: Bringing up level for play took: 0.001918
+[2016.09.20-19.03.15:014][716]PIE: Info Play in editor start time for /Game/UEDPIE_0_KeyPressDemo -0.696
+[2016.09.20-19.03.15:015][716]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.03.16:892][914]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.03.17:923][ 24]LogBlueprintUserMessages: [KeyPressDemo_C_1] Hello Event Listeners
+[2016.09.20-19.03.18:178][ 50]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.03.19:617][199]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.03.19:617][199]LogBlueprintUserMessages: [KeyPressDemo_C_1] 445.0
+[2016.09.20-19.03.19:617][199]LogBlueprintUserMessages: [KeyPressDemo_C_1] 124.0
+[2016.09.20-19.03.24:677][735]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.03.24:677][735]LogBlueprintUserMessages: [KeyPressDemo_C_1] 223.0
+[2016.09.20-19.03.24:677][735]LogBlueprintUserMessages: [KeyPressDemo_C_1] 0.0
+[2016.09.20-19.03.25:636][837]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.03.25:636][837]LogBlueprintUserMessages: [KeyPressDemo_C_1] 223.0
+[2016.09.20-19.03.25:636][837]LogBlueprintUserMessages: [KeyPressDemo_C_1] 0.0
+[2016.09.20-19.03.26:659][947]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.03.26:659][947]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.03.26:659][947]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.03.26:659][947]LogBlueprintUserMessages: [KeyPressDemo_C_1] 
+[2016.09.20-19.03.31:503][463]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.03.32:939][614]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.03.33:134][635]LogBlueprintUserMessages: [KeyPressDemo_C_1] Key was pressed
+[2016.09.20-19.03.33:899][712]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.03.33:938][712]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.03.43:352][730]BlueprintLog: New page: Compile KeyPressDemo
+[2016.09.20-19.03.43:435][730]BlueprintEditorCompileResults: Info [2245.00] Compile of PersistentLevel.KeyPressDemo successful! [in 82 ms] (/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo)
+[2016.09.20-19.03.58:297][736]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.03.58:297][736]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.20-19.03.58:297][736]PIE: New page: PIE session: KeyPressDemo (Sep 20, 2016, 10:03:58 PM)
+[2016.09.20-19.03.58:297][736]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KeyPressDemo
+[2016.09.20-19.03.58:300][736]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003387s)
+[2016.09.20-19.03.58:301][736]LogAIModule: Creating AISystem for world KeyPressDemo
+[2016.09.20-19.03.58:301][736]LogPlayLevel: PIE: World Init took: (0.000667s)
+[2016.09.20-19.03.58:301][736]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KeyPressDemo.KeyPressDemo to /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo (0.004265s)
+[2016.09.20-19.03.58:317][736]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.20-19.03.58:328][736]LogInit: FAudioDevice initialized.
+[2016.09.20-19.03.58:378][736]LogWorld: Game class is 'GameMode'
+[2016.09.20-19.03.58:380][736]LogWorld: Bringing World /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo up for play (max tick rate 0) at 2016.09.20-21.03.58
+[2016.09.20-19.03.58:380][736]LogWorld: Bringing up level for play took: 0.001785
+[2016.09.20-19.03.58:382][736]PIE: Info Play in editor start time for /Game/UEDPIE_0_KeyPressDemo 0.671
+[2016.09.20-19.03.58:382][736]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.03.59:502][870]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.03.59:502][870]LogBlueprintUserMessages: [KeyPressDemo_C_0] LOL
+[2016.09.20-19.04.01:219][ 76]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.04.01:219][ 76]LogBlueprintUserMessages: [KeyPressDemo_C_0] 626.0
+[2016.09.20-19.04.01:219][ 76]LogBlueprintUserMessages: [KeyPressDemo_C_0] 27.0
+[2016.09.20-19.04.01:286][ 84]LogBlueprintUserMessages: [KeyPressDemo_C_0] Hello Event Listeners
+[2016.09.20-19.04.02:485][228]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.04.02:486][228]LogBlueprintUserMessages: [KeyPressDemo_C_0] LOL
+[2016.09.20-19.04.02:486][228]LogBlueprintUserMessages: [KeyPressDemo_C_0] 
+[2016.09.20-19.04.05:086][540]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.04.05:086][540]LogBlueprintUserMessages: [KeyPressDemo_C_0] LOL
+[2016.09.20-19.04.05:086][540]LogBlueprintUserMessages: [KeyPressDemo_C_0] 
+[2016.09.20-19.04.06:311][687]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.04.06:311][687]LogBlueprintUserMessages: [KeyPressDemo_C_0] 626.0
+[2016.09.20-19.04.06:311][687]LogBlueprintUserMessages: [KeyPressDemo_C_0] 27.0
+[2016.09.20-19.04.07:144][787]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.04.07:144][787]LogBlueprintUserMessages: [KeyPressDemo_C_0] LOL
+[2016.09.20-19.04.07:144][787]LogBlueprintUserMessages: [KeyPressDemo_C_0] 
+[2016.09.20-19.04.07:144][787]LogBlueprintUserMessages: [KeyPressDemo_C_0] 
+[2016.09.20-19.04.09:728][ 97]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.04.09:761][ 97]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.04.13:370][526]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: {GameModeName}".
+[2016.09.20-19.06.57:792][833]BlueprintLog: New page: Compile KeyPressDemo
+[2016.09.20-19.06.57:876][833]BlueprintEditorCompileResults: Info [2439.44] Compile of PersistentLevel.KeyPressDemo successful! [in 83 ms] (/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo)
+[2016.09.20-19.07.01:491][242]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.07.01:491][242]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.20-19.07.01:491][242]PIE: New page: PIE session: KeyPressDemo (Sep 20, 2016, 10:07:01 PM)
+[2016.09.20-19.07.01:491][242]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KeyPressDemo
+[2016.09.20-19.07.01:494][242]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003307s)
+[2016.09.20-19.07.01:495][242]LogAIModule: Creating AISystem for world KeyPressDemo
+[2016.09.20-19.07.01:495][242]LogPlayLevel: PIE: World Init took: (0.000738s)
+[2016.09.20-19.07.01:495][242]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KeyPressDemo.KeyPressDemo to /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo (0.004256s)
+[2016.09.20-19.07.01:511][242]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.20-19.07.01:521][242]LogInit: FAudioDevice initialized.
+[2016.09.20-19.07.01:571][242]LogWorld: Game class is 'GameMode'
+[2016.09.20-19.07.01:575][242]LogWorld: Bringing World /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo up for play (max tick rate 0) at 2016.09.20-21.07.01
+[2016.09.20-19.07.01:575][242]LogWorld: Bringing up level for play took: 0.002164
+[2016.09.20-19.07.01:577][242]PIE: Info Play in editor start time for /Game/UEDPIE_0_KeyPressDemo -0.134
+[2016.09.20-19.07.01:577][242]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.07.04:480][590]LogBlueprintUserMessages: [KeyPressDemo_C_2] Hello Event Listeners
+[2016.09.20-19.07.05:914][762]LogBlueprintUserMessages: [KeyPressDemo_C_2] Key was pressed
+[2016.09.20-19.07.05:914][762]LogBlueprintUserMessages: [KeyPressDemo_C_2] 342.0
+[2016.09.20-19.07.05:914][762]LogBlueprintUserMessages: [KeyPressDemo_C_2] 181.0
+[2016.09.20-19.07.05:914][762]LogBlueprintUserMessages: [KeyPressDemo_C_2] Added
+[2016.09.20-19.07.07:822][991]LogBlueprintUserMessages: [KeyPressDemo_C_2] Key was pressed
+[2016.09.20-19.07.07:822][991]LogBlueprintUserMessages: [KeyPressDemo_C_2] LOL
+[2016.09.20-19.07.07:822][991]LogBlueprintUserMessages: [KeyPressDemo_C_2] 
+[2016.09.20-19.07.08:672][ 93]LogBlueprintUserMessages: [KeyPressDemo_C_2] Key was pressed
+[2016.09.20-19.07.08:672][ 93]LogBlueprintUserMessages: [KeyPressDemo_C_2] LOL
+[2016.09.20-19.07.08:672][ 93]LogBlueprintUserMessages: [KeyPressDemo_C_2] 
+[2016.09.20-19.07.10:181][274]LogBlueprintUserMessages: [KeyPressDemo_C_2] Key was pressed
+[2016.09.20-19.07.10:181][274]LogBlueprintUserMessages: [KeyPressDemo_C_2] LOL
+[2016.09.20-19.07.10:181][274]LogBlueprintUserMessages: [KeyPressDemo_C_2] 
+[2016.09.20-19.07.10:789][347]LogBlueprintUserMessages: [KeyPressDemo_C_2] Key was pressed
+[2016.09.20-19.07.10:789][347]LogBlueprintUserMessages: [KeyPressDemo_C_2] LOL
+[2016.09.20-19.07.10:789][347]LogBlueprintUserMessages: [KeyPressDemo_C_2] 
+[2016.09.20-19.07.11:414][422]LogBlueprintUserMessages: [KeyPressDemo_C_2] Key was pressed
+[2016.09.20-19.07.11:414][422]LogBlueprintUserMessages: [KeyPressDemo_C_2] LOL
+[2016.09.20-19.07.11:414][422]LogBlueprintUserMessages: [KeyPressDemo_C_2] 
+[2016.09.20-19.07.12:614][566]LogBlueprintUserMessages: [KeyPressDemo_C_2] Key was pressed
+[2016.09.20-19.07.12:614][566]LogBlueprintUserMessages: [KeyPressDemo_C_2] 342.0
+[2016.09.20-19.07.12:614][566]LogBlueprintUserMessages: [KeyPressDemo_C_2] 181.0
+[2016.09.20-19.07.12:614][566]LogBlueprintUserMessages: [KeyPressDemo_C_2] Added
+[2016.09.20-19.07.13:698][696]LogBlueprintUserMessages: [KeyPressDemo_C_2] Key was pressed
+[2016.09.20-19.07.13:698][696]LogBlueprintUserMessages: [KeyPressDemo_C_2] LOL
+[2016.09.20-19.07.13:698][696]LogBlueprintUserMessages: [KeyPressDemo_C_2] 
+[2016.09.20-19.07.13:698][696]LogBlueprintUserMessages: [KeyPressDemo_C_2] 
+[2016.09.20-19.07.14:264][764]LogBlueprintUserMessages: [KeyPressDemo_C_2] Key was pressed
+[2016.09.20-19.07.14:264][764]LogBlueprintUserMessages: [KeyPressDemo_C_2] LOL
+[2016.09.20-19.07.14:264][764]LogBlueprintUserMessages: [KeyPressDemo_C_2] 
+[2016.09.20-19.07.14:264][764]LogBlueprintUserMessages: [KeyPressDemo_C_2] 
+[2016.09.20-19.07.14:840][833]LogBlueprintUserMessages: [KeyPressDemo_C_2] Key was pressed
+[2016.09.20-19.07.14:840][833]LogBlueprintUserMessages: [KeyPressDemo_C_2] LOL
+[2016.09.20-19.07.14:840][833]LogBlueprintUserMessages: [KeyPressDemo_C_2] 
+[2016.09.20-19.07.14:840][833]LogBlueprintUserMessages: [KeyPressDemo_C_2] 
+[2016.09.20-19.07.15:373][897]LogBlueprintUserMessages: [KeyPressDemo_C_2] Key was pressed
+[2016.09.20-19.07.15:373][897]LogBlueprintUserMessages: [KeyPressDemo_C_2] LOL
+[2016.09.20-19.07.15:373][897]LogBlueprintUserMessages: [KeyPressDemo_C_2] 
+[2016.09.20-19.07.15:373][897]LogBlueprintUserMessages: [KeyPressDemo_C_2] 
+[2016.09.20-19.07.16:548][ 38]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.07.16:580][ 38]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.07.22:551][593]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: {GameModeName}".
+[2016.09.20-19.08.26:221][859]BlueprintLog: New page: Compile KeyPressDemo
+[2016.09.20-19.08.26:303][859]BlueprintEditorCompileResults: Info [2527.87] Compile of PersistentLevel.KeyPressDemo successful! [in 81 ms] (/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo)
+[2016.09.20-19.08.28:647][131]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.08.28:647][131]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.20-19.08.28:647][131]PIE: New page: PIE session: KeyPressDemo (Sep 20, 2016, 10:08:28 PM)
+[2016.09.20-19.08.28:647][131]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KeyPressDemo
+[2016.09.20-19.08.28:651][131]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003434s)
+[2016.09.20-19.08.28:651][131]LogAIModule: Creating AISystem for world KeyPressDemo
+[2016.09.20-19.08.28:651][131]LogPlayLevel: PIE: World Init took: (0.000718s)
+[2016.09.20-19.08.28:651][131]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KeyPressDemo.KeyPressDemo to /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo (0.004353s)
+[2016.09.20-19.08.28:667][131]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.20-19.08.28:677][131]LogInit: FAudioDevice initialized.
+[2016.09.20-19.08.28:724][131]LogWorld: Game class is 'GameMode'
+[2016.09.20-19.08.28:726][131]LogWorld: Bringing World /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo up for play (max tick rate 0) at 2016.09.20-21.08.28
+[2016.09.20-19.08.28:727][131]LogWorld: Bringing up level for play took: 0.002007
+[2016.09.20-19.08.28:728][131]PIE: Info Play in editor start time for /Game/UEDPIE_0_KeyPressDemo 1.018
+[2016.09.20-19.08.28:728][131]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.08.29:681][245]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.08.29:681][245]LogBlueprintUserMessages: [KeyPressDemo_C_0] 619.0
+[2016.09.20-19.08.29:681][245]LogBlueprintUserMessages: [KeyPressDemo_C_0] 2.0
+[2016.09.20-19.08.30:490][342]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.08.30:490][342]LogBlueprintUserMessages: [KeyPressDemo_C_0] LOL
+[2016.09.20-19.08.30:490][342]LogBlueprintUserMessages: [KeyPressDemo_C_0] 2.0
+[2016.09.20-19.08.31:340][444]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.08.31:340][444]LogBlueprintUserMessages: [KeyPressDemo_C_0] LOL
+[2016.09.20-19.08.31:340][444]LogBlueprintUserMessages: [KeyPressDemo_C_0] 2.0
+[2016.09.20-19.08.31:640][480]LogBlueprintUserMessages: [KeyPressDemo_C_0] Hello Event Listeners
+[2016.09.20-19.08.32:515][585]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.08.32:515][585]LogBlueprintUserMessages: [KeyPressDemo_C_0] LOL
+[2016.09.20-19.08.32:515][585]LogBlueprintUserMessages: [KeyPressDemo_C_0] 2.0
+[2016.09.20-19.08.33:148][661]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.08.33:148][661]LogBlueprintUserMessages: [KeyPressDemo_C_0] LOL
+[2016.09.20-19.08.33:148][661]LogBlueprintUserMessages: [KeyPressDemo_C_0] 2.0
+[2016.09.20-19.08.33:623][718]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.08.33:623][718]LogBlueprintUserMessages: [KeyPressDemo_C_0] LOL
+[2016.09.20-19.08.33:623][718]LogBlueprintUserMessages: [KeyPressDemo_C_0] 2.0
+[2016.09.20-19.08.35:807][980]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.08.35:807][980]LogBlueprintUserMessages: [KeyPressDemo_C_0] 620.0
+[2016.09.20-19.08.35:807][980]LogBlueprintUserMessages: [KeyPressDemo_C_0] 2.0
+[2016.09.20-19.08.37:723][210]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.08.37:723][210]LogBlueprintUserMessages: [KeyPressDemo_C_0] 526.0
+[2016.09.20-19.08.37:723][210]LogBlueprintUserMessages: [KeyPressDemo_C_0] 172.0
+[2016.09.20-19.08.38:623][318]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.08.38:623][318]LogBlueprintUserMessages: [KeyPressDemo_C_0] LOL
+[2016.09.20-19.08.38:623][318]LogBlueprintUserMessages: [KeyPressDemo_C_0] 2.0
+[2016.09.20-19.08.38:623][318]LogBlueprintUserMessages: [KeyPressDemo_C_0] 2.0
+[2016.09.20-19.08.38:623][318]LogBlueprintUserMessages: [KeyPressDemo_C_0] 172.0
+[2016.09.20-19.08.40:341][524]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.08.40:368][524]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.08.45:916][186]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: {GameModeName}".
+[2016.09.20-19.09.59:146][255]BlueprintLog: New page: Compile KeyPressDemo
+[2016.09.20-19.09.59:232][255]BlueprintEditorCompileResults: Info [2620.80] Compile of PersistentLevel.KeyPressDemo successful! [in 85 ms] (/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo)
+[2016.09.20-19.10.01:490][514]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.10.01:490][514]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.20-19.10.01:490][514]PIE: New page: PIE session: KeyPressDemo (Sep 20, 2016, 10:10:01 PM)
+[2016.09.20-19.10.01:490][514]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KeyPressDemo
+[2016.09.20-19.10.01:494][514]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003712s)
+[2016.09.20-19.10.01:494][514]LogAIModule: Creating AISystem for world KeyPressDemo
+[2016.09.20-19.10.01:494][514]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2016.09.20-19.10.01:495][514]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KeyPressDemo.KeyPressDemo to /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo (0.004588s)
+[2016.09.20-19.10.01:511][514]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.20-19.10.01:522][514]LogInit: FAudioDevice initialized.
+[2016.09.20-19.10.01:567][514]LogWorld: Game class is 'GameMode'
+[2016.09.20-19.10.01:570][514]LogWorld: Bringing World /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo up for play (max tick rate 0) at 2016.09.20-21.10.01
+[2016.09.20-19.10.01:571][514]LogWorld: Bringing up level for play took: 0.002469
+[2016.09.20-19.10.01:573][514]PIE: Info Play in editor start time for /Game/UEDPIE_0_KeyPressDemo -0.138
+[2016.09.20-19.10.01:573][514]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.10.04:392][852]LogBlueprintUserMessages: [KeyPressDemo_C_2] Key was pressed
+[2016.09.20-19.10.04:392][852]LogBlueprintUserMessages: [KeyPressDemo_C_2] 357.0
+[2016.09.20-19.10.04:392][852]LogBlueprintUserMessages: [KeyPressDemo_C_2] 157.0
+[2016.09.20-19.10.04:476][862]LogBlueprintUserMessages: [KeyPressDemo_C_2] Hello Event Listeners
+[2016.09.20-19.10.05:876][ 30]LogBlueprintUserMessages: [KeyPressDemo_C_2] Key was pressed
+[2016.09.20-19.10.05:876][ 30]LogBlueprintUserMessages: [KeyPressDemo_C_2] 1205.0
+[2016.09.20-19.10.05:876][ 30]LogBlueprintUserMessages: [KeyPressDemo_C_2] 0.0
+[2016.09.20-19.10.07:901][273]LogBlueprintUserMessages: [KeyPressDemo_C_2] Key was pressed
+[2016.09.20-19.10.07:901][273]LogBlueprintUserMessages: [KeyPressDemo_C_2] LOL
+[2016.09.20-19.10.07:901][273]LogBlueprintUserMessages: [KeyPressDemo_C_2] 357.0
+[2016.09.20-19.10.07:901][273]LogBlueprintUserMessages: [KeyPressDemo_C_2] 157.0
+[2016.09.20-19.10.07:901][273]LogBlueprintUserMessages: [KeyPressDemo_C_2] 1205.0
+[2016.09.20-19.10.07:901][273]LogBlueprintUserMessages: [KeyPressDemo_C_2] 0.0
+[2016.09.20-19.10.09:893][512]LogBlueprintUserMessages: [KeyPressDemo_C_2] Key was pressed
+[2016.09.20-19.10.09:893][512]LogBlueprintUserMessages: [KeyPressDemo_C_2] LOL
+[2016.09.20-19.10.09:893][512]LogBlueprintUserMessages: [KeyPressDemo_C_2] 357.0
+[2016.09.20-19.10.09:893][512]LogBlueprintUserMessages: [KeyPressDemo_C_2] 157.0
+[2016.09.20-19.10.09:893][512]LogBlueprintUserMessages: [KeyPressDemo_C_2] 1205.0
+[2016.09.20-19.10.09:893][512]LogBlueprintUserMessages: [KeyPressDemo_C_2] 0.0
+[2016.09.20-19.10.10:643][602]LogBlueprintUserMessages: [KeyPressDemo_C_2] Key was pressed
+[2016.09.20-19.10.10:643][602]LogBlueprintUserMessages: [KeyPressDemo_C_2] LOL
+[2016.09.20-19.10.10:643][602]LogBlueprintUserMessages: [KeyPressDemo_C_2] 357.0
+[2016.09.20-19.10.10:643][602]LogBlueprintUserMessages: [KeyPressDemo_C_2] 157.0
+[2016.09.20-19.10.10:643][602]LogBlueprintUserMessages: [KeyPressDemo_C_2] 1205.0
+[2016.09.20-19.10.10:643][602]LogBlueprintUserMessages: [KeyPressDemo_C_2] 0.0
+[2016.09.20-19.10.15:410][174]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.10.15:443][174]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.10.17:771][450]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: {GameModeName}".
+[2016.09.20-19.10.36:450][454]BlueprintLog: New page: Compile KeyPressDemo
+[2016.09.20-19.10.36:533][454]BlueprintEditorCompileResults: Info [2658.10] Compile of PersistentLevel.KeyPressDemo successful! [in 82 ms] (/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo)
+[2016.09.20-19.10.38:573][685]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.10.38:573][685]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.20-19.10.38:573][685]PIE: New page: PIE session: KeyPressDemo (Sep 20, 2016, 10:10:38 PM)
+[2016.09.20-19.10.38:573][685]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KeyPressDemo
+[2016.09.20-19.10.38:576][685]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002940s)
+[2016.09.20-19.10.38:577][685]LogAIModule: Creating AISystem for world KeyPressDemo
+[2016.09.20-19.10.38:577][685]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2016.09.20-19.10.38:577][685]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KeyPressDemo.KeyPressDemo to /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo (0.003822s)
+[2016.09.20-19.10.38:593][685]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.09.20-19.10.38:603][685]LogInit: FAudioDevice initialized.
+[2016.09.20-19.10.38:653][685]LogWorld: Game class is 'GameMode'
+[2016.09.20-19.10.38:656][685]LogWorld: Bringing World /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo up for play (max tick rate 0) at 2016.09.20-21.10.38
+[2016.09.20-19.10.38:656][685]LogWorld: Bringing up level for play took: 0.001850
+[2016.09.20-19.10.38:657][685]PIE: Info Play in editor start time for /Game/UEDPIE_0_KeyPressDemo 0.947
+[2016.09.20-19.10.38:658][685]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.20-19.10.40:180][867]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.10.41:563][ 33]LogBlueprintUserMessages: [KeyPressDemo_C_0] Hello Event Listeners
+[2016.09.20-19.10.41:664][ 45]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.10.41:664][ 45]LogBlueprintUserMessages: [KeyPressDemo_C_0] 508.0
+[2016.09.20-19.10.41:664][ 45]LogBlueprintUserMessages: [KeyPressDemo_C_0] 54.0
+[2016.09.20-19.10.44:296][361]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.10.44:297][361]LogBlueprintUserMessages: [KeyPressDemo_C_0] 508.0
+[2016.09.20-19.10.44:297][361]LogBlueprintUserMessages: [KeyPressDemo_C_0] 54.0
+[2016.09.20-19.10.47:055][692]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.10.47:055][692]LogBlueprintUserMessages: [KeyPressDemo_C_0] 508.0
+[2016.09.20-19.10.47:055][692]LogBlueprintUserMessages: [KeyPressDemo_C_0] 54.0
+[2016.09.20-19.10.47:055][692]LogBlueprintUserMessages: [KeyPressDemo_C_0] 508.0
+[2016.09.20-19.10.47:055][692]LogBlueprintUserMessages: [KeyPressDemo_C_0] 54.0
+[2016.09.20-19.10.48:439][858]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.10.48:439][858]LogBlueprintUserMessages: [KeyPressDemo_C_0] 508.0
+[2016.09.20-19.10.48:439][858]LogBlueprintUserMessages: [KeyPressDemo_C_0] 54.0
+[2016.09.20-19.10.48:439][858]LogBlueprintUserMessages: [KeyPressDemo_C_0] 508.0
+[2016.09.20-19.10.48:439][858]LogBlueprintUserMessages: [KeyPressDemo_C_0] 54.0
+[2016.09.20-19.10.50:422][ 96]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.10.50:422][ 96]LogBlueprintUserMessages: [KeyPressDemo_C_0] 665.0
+[2016.09.20-19.10.50:422][ 96]LogBlueprintUserMessages: [KeyPressDemo_C_0] 497.0
+[2016.09.20-19.10.51:155][184]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.10.51:155][184]LogBlueprintUserMessages: [KeyPressDemo_C_0] 508.0
+[2016.09.20-19.10.51:155][184]LogBlueprintUserMessages: [KeyPressDemo_C_0] 54.0
+[2016.09.20-19.10.51:155][184]LogBlueprintUserMessages: [KeyPressDemo_C_0] 508.0
+[2016.09.20-19.10.51:155][184]LogBlueprintUserMessages: [KeyPressDemo_C_0] 54.0
+[2016.09.20-19.10.51:155][184]LogBlueprintUserMessages: [KeyPressDemo_C_0] 665.0
+[2016.09.20-19.10.51:155][184]LogBlueprintUserMessages: [KeyPressDemo_C_0] 497.0
+[2016.09.20-19.10.52:939][398]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.10.52:939][398]LogBlueprintUserMessages: [KeyPressDemo_C_0] 0.0
+[2016.09.20-19.10.52:939][398]LogBlueprintUserMessages: [KeyPressDemo_C_0] 47.0
+[2016.09.20-19.10.53:264][437]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key was pressed
+[2016.09.20-19.10.53:264][437]LogBlueprintUserMessages: [KeyPressDemo_C_0] 0.0
+[2016.09.20-19.10.53:264][437]LogBlueprintUserMessages: [KeyPressDemo_C_0] 550.0
+[2016.09.20-19.10.53:606][478]LogBlueprintUserMessages: [KeyPressDemo_C_0] Key
