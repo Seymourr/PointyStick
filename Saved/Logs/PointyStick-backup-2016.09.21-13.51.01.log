@@ -1,0 +1,1920 @@
+﻿Log file open, 09/21/16 12:32:35
+LogInit:Display: Running engine for game: PointyStick
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-453468532) SRandInit(-453468530).
+LogTaskGraph: Started task graph with 4 named threads and 7 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.079238
+LogInit: Version: 4.12.5-3039270+++UE4+Release-4.12
+LogInit: API Version: 2992821
+LogInit: Net Version: 3039270
+LogDevObjectVersion: Number of dev versions registered: 13
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 3
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 1
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 2
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 6
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 2
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 0
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogInit: Compiled (64-bit): Jul  6 2016 09:09:46
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.12
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.12/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Using libcurl 7.41.0
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with WinSSL
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2016.09.21-10.32.35:557][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.21-10.32.35:557][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.09.21-10.32.35:567][  0]LogInit: Computer: DESKTOP-EB3M7AR
+[2016.09.21-10.32.35:567][  0]LogInit: User: OpenVR
+[2016.09.21-10.32.35:567][  0]LogInit: CPU Page size=65536, Cores=4
+[2016.09.21-10.32.35:567][  0]LogInit: High frequency timer resolution =2.648438 MHz
+[2016.09.21-10.32.35:567][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.09.21-10.32.35:567][  0]LogMemory: Platform Memory Stats for Windows
+[2016.09.21-10.32.35:567][  0]LogMemory: Process Physical Memory: 189.57 MB used, 189.57 MB peak
+[2016.09.21-10.32.35:567][  0]LogMemory: Process Virtual Memory: 194.90 MB used, 194.90 MB peak
+[2016.09.21-10.32.35:567][  0]LogMemory: Physical Memory: 4005.04 MB used, 8121.53 MB total
+[2016.09.21-10.32.35:567][  0]LogMemory: Virtual Memory: 553.95 MB used, 134217728.00 MB total
+[2016.09.21-10.32.35:604][  0]LogTextLocalizationManager: No specific translations for ('en-GB') exist, so ('en') translations will be used.
+[2016.09.21-10.32.36:028][  0]LogD3D11RHI: D3D11 adapters:
+[2016.09.21-10.32.36:054][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2016.09.21-10.32.36:054][  0]LogD3D11RHI:       8085/0/4060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2016.09.21-10.32.36:056][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2016.09.21-10.32.36:056][  0]LogD3D11RHI:       0/0/4060 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2016.09.21-10.32.36:056][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2016.09.21-10.32.36:060][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2016.09.21-10.32.36:060][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2016.09.21-10.32.36:060][  0]LogWindows: EnumDisplayDevices:
+[2016.09.21-10.32.36:060][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2016.09.21-10.32.36:060][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2016.09.21-10.32.36:061][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2016.09.21-10.32.36:061][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2016.09.21-10.32.36:061][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2016.09.21-10.32.36:061][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2016.09.21-10.32.36:061][  0]LogD3D11RHI:   Driver Version: 368.39 (internal:10.18.13.6839, unified:368.39)
+[2016.09.21-10.32.36:061][  0]LogD3D11RHI:      Driver Date: 6-2-2016
+[2016.09.21-10.32.36:061][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.09.21-10.32.36:078][  0]LogD3D11RHI: Async texture creation enabled
+[2016.09.21-10.32.36:088][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2016.09.21-10.32.36:088][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Intermediate/Shaders/WorkingDirectory/5356/).
+[2016.09.21-10.32.36:088][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/OpenVR/AppData/Local/Temp/UnrealShaderWorkingDir/729246D340255EB2E08229B6E4AA96F8/'.
+[2016.09.21-10.32.36:088][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.09.21-10.32.37:050][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.09.21-10.32.37:059][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.09.21-10.32.37:069][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.09.21-10.32.37:079][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.09.21-10.32.37:089][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.09.21-10.32.37:098][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.09.21-10.32.37:107][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.09.21-10.32.37:116][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.09.21-10.32.37:124][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.09.21-10.32.37:133][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.09.21-10.32.37:142][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.09.21-10.32.37:159][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.09.21-10.32.37:159][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.09.21-10.32.37:160][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.09.21-10.32.37:182][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.09.21-10.32.37:190][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2016.09.21-10.32.37:199][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.09.21-10.32.37:207][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.09.21-10.32.37:215][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.09.21-10.32.37:215][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.09.21-10.32.37:300][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.09.21-10.32.37:347][  0]LogDerivedDataCache: Loaded boot cache 0.05s 48MB C:/Users/OpenVR/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.21-10.32.37:347][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/OpenVR/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc
+[2016.09.21-10.32.37:347][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.09.21-10.32.37:347][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.09.21-10.32.37:347][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.09.21-10.32.37:347][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.09.21-10.32.37:364][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.09.21-10.32.37:379][  0]LogDerivedDataCache: Using Local data cache path C:/Users/OpenVR/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.09.21-10.32.37:568][  0]LogInit: Selected Device Profile: [Windows]
+[2016.09.21-10.32.37:569][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2016.09.21-10.32.37:738][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.09.21-10.32.37:739][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.09.21-10.32.37:739][  0]LogMeshUtilities: No distributed automatic mesh merging module available
+[2016.09.21-10.32.37:979][  0]LogAssetRegistry: FAssetRegistry took 0.0213 seconds to start up
+[2016.09.21-10.32.38:025][  0]LogPackageLocalizationCache: Processed 3 localized package path(s) for 2 prioritized culture(s) in 0.044059 seconds
+[2016.09.21-10.32.38:030][  0]LogUObjectArray: 28739 objects as part of root set at end of initial load.
+[2016.09.21-10.32.38:030][  0]LogUObjectAllocator: 5855632 out of 0 bytes used by permanent object pool.
+[2016.09.21-10.32.38:030][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2016.09.21-10.32.38:037][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.09.21-10.32.38:209][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.21-10.32.38:209][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2016.09.21-10.32.39:017][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.09.21-10.32.39:251][  0]SourceControl: Info Source control is disabled
+[2016.09.21-10.32.39:299][  0]SourceControl: Info Source control is disabled
+[2016.09.21-10.32.39:310][  0]SourceControl: Info Source control is disabled
+[2016.09.21-10.32.39:320][  0]SourceControl: Info Source control is disabled
+[2016.09.21-10.32.39:561][  0]LogEngine: Initializing Engine...
+[2016.09.21-10.32.39:580][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-924C69AF
+[2016.09.21-10.32.39:594][  0]LogHMD: SteamVR initialized.  Driver: lighthouse  Display: LHR-924C69AF
+[2016.09.21-10.32.39:734][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.09.21-10.32.39:744][  0]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-10.32.39:756][  0]LogInit: FAudioDevice initialized.
+[2016.09.21-10.32.39:780][  0]LogDerivedDataCache: Saved boot cache 0.02s 48MB C:/Users/OpenVR/AppData/Local/UnrealEngine/4.12/DerivedDataCache/Boot.ddc.
+[2016.09.21-10.32.39:783][  0]LogInit: Texture streaming: Enabled
+[2016.09.21-10.32.39:809][  0]LogInit: Transaction tracking system initialized
+[2016.09.21-10.32.39:832][  0]BlueprintLog: New page: Editor Load
+[2016.09.21-10.32.39:913][  0]LocalizationService: Info Localization service is disabled
+[2016.09.21-10.32.39:980][  0]LogConsoleResponse:Display: 
+[2016.09.21-10.32.40:087][  0]LogCook:Display: Max memory allowance for cook 8192mb
+[2016.09.21-10.32.40:087][  0]LogCook:Display: Mobile HDR setting 1
+[2016.09.21-10.32.40:196][  0]LogFileCache: Scanning file cache for directory 'C:/Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/' took 0.01s
+[2016.09.21-10.32.40:196][  0]SourceControl: Info Source control is disabled
+[2016.09.21-10.32.40:196][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.21-10.32.40:196][  0]LightingResults: New page: Lighting Build
+[2016.09.21-10.32.40:199][  0]MapCheck: New page: Map Check
+[2016.09.21-10.32.40:199][  0]LightingResults: New page: Lighting Build
+[2016.09.21-10.32.40:419][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.09.21-10.32.40:423][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.09.21-10.32.40:427][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.21-10.32.40:486][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 59.691ms to complete.
+[2016.09.21-10.32.40:486][  0]LogFileHelpers: Loading map 'Template_Default' took 0.291
+[2016.09.21-10.32.40:615][  0]LogCollectionManager: Loaded 0 collections in 0.001830 seconds
+[2016.09.21-10.32.40:657][  0]LogFileCache: Scanning file cache for directory 'C:/Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/Collections/' took 0.01s
+[2016.09.21-10.32.40:657][  0]LogFileCache: Scanning file cache for directory 'C:/Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/Developers/OpenVR/Collections/' took 0.01s
+[2016.09.21-10.32.40:657][  0]LogFileCache: Scanning file cache for directory 'C:/Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/Collections/' took 0.01s
+[2016.09.21-10.32.40:657][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2016.09.21-10.32.40:664][  0]LogContentBrowser: Native class hierarchy populated in 0.0078 seconds. Added 2047 classes and 369 folders.
+[2016.09.21-10.32.40:669][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2016.09.21-10.32.40:669][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2016.09.21-10.32.40:669][  0]LogContentBrowser: Native class hierarchy updated for 'GameplayTags' in 0.0005 seconds. Added 12 classes and 0 folders.
+[2016.09.21-10.32.40:674][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.09.21-10.32.40:680][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2016.09.21-10.32.40:685][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2016.09.21-10.32.40:699][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.09.21-10.32.40:705][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.09.21-10.32.40:731][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2016.09.21-10.32.40:731][  0]LogLoad: Full Startup: 5.90 seconds (BP compile: 0.03 seconds)
+[2016.09.21-10.32.40:731][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2016.09.21-10.32.40:731][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2016.09.21-10.32.40:740][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.21-10.32.40:741][  0]LogOcInput: OculusInput pre-init called
+[2016.09.21-10.32.40:757][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2016.09.21-10.32.40:893][  0]LogRenderer: Reallocating scene render targets to support 816x372 (Frame:2).
+[2016.09.21-10.32.40:945][  1]LogAssetRegistry: Asset discovery search completed in 2.9871 seconds
+[2016.09.21-10.32.40:945][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2016.09.21-10.32.40:945][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2016.09.21-10.32.48:173][854]LogRenderer: Reallocating scene render targets to support 1208x576 (Frame:5).
+[2016.09.21-10.32.49:506][999]LogAIModule: Creating AISystem for world KeyPressDemo
+[2016.09.21-10.32.49:528][999]Cmd: MAP LOAD FILE="../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/KeyPressDemo.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.09.21-10.32.49:528][999]LightingResults: New page: Lighting Build
+[2016.09.21-10.32.49:529][999]LoadErrors: New page: Loading map: KeyPressDemo.umap
+[2016.09.21-10.32.49:529][999]MapCheck: New page: Map Check
+[2016.09.21-10.32.49:529][999]LightingResults: New page: Lighting Build
+[2016.09.21-10.32.49:541][999]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.09.21-10.32.49:560][999]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.09.21-10.32.49:623][999]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 63.484ms to complete.
+[2016.09.21-10.32.49:623][999]LogFileHelpers: Loading map 'KeyPressDemo' took 0.096
+[2016.09.21-10.32.52:047][287]LogText:Warning: Failed to parse argument "GameModeName" as a number (using "0" as a fallback). Please check your format string for errors: "GameMode: {GameModeName}".
+[2016.09.21-10.32.53:682][439]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 111 classes and 0 folders.
+[2016.09.21-10.33.07:147][742]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.33.07:147][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.21-10.33.07:147][742]PIE: New page: PIE session: KeyPressDemo (21 Sep 2016 13:33:07)
+[2016.09.21-10.33.07:147][742]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KeyPressDemo
+[2016.09.21-10.33.07:154][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006358s)
+[2016.09.21-10.33.07:154][742]LogAIModule: Creating AISystem for world KeyPressDemo
+[2016.09.21-10.33.07:154][742]LogPlayLevel: PIE: World Init took: (0.000726s)
+[2016.09.21-10.33.07:154][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KeyPressDemo.KeyPressDemo to /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo (0.007280s)
+[2016.09.21-10.33.07:185][742]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-10.33.07:192][742]LogInit: FAudioDevice initialized.
+[2016.09.21-10.33.07:252][742]LogWorld: Game class is 'GameMode'
+[2016.09.21-10.33.07:256][742]LogWorld: Bringing World /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo up for play (max tick rate 0) at 2016.09.21-12.33.07
+[2016.09.21-10.33.07:256][742]LogWorld: Bringing up level for play took: 0.002156
+[2016.09.21-10.33.07:260][742]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2016.09.21-10.33.07:261][742]PIE: Info Play in editor start time for /Game/UEDPIE_0_KeyPressDemo 0.271
+[2016.09.21-10.33.07:261][742]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.33.07:284][743]LogRenderer: Reallocating scene render targets to support 1692x804 (Frame:11).
+[2016.09.21-10.33.20:864][372]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.33.20:907][372]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.35.22:630][249]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.35.22:630][249]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.21-10.35.22:630][249]PIE: New page: PIE session: KeyPressDemo (21 Sep 2016 13:35:22)
+[2016.09.21-10.35.22:630][249]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KeyPressDemo
+[2016.09.21-10.35.22:636][249]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006118s)
+[2016.09.21-10.35.22:637][249]LogAIModule: Creating AISystem for world KeyPressDemo
+[2016.09.21-10.35.22:637][249]LogPlayLevel: PIE: World Init took: (0.001075s)
+[2016.09.21-10.35.22:638][249]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KeyPressDemo.KeyPressDemo to /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo (0.007455s)
+[2016.09.21-10.35.22:660][249]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-10.35.22:666][249]LogInit: FAudioDevice initialized.
+[2016.09.21-10.35.22:714][249]LogWorld: Game class is 'GameMode'
+[2016.09.21-10.35.22:716][249]LogWorld: Bringing World /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo up for play (max tick rate 0) at 2016.09.21-12.35.22
+[2016.09.21-10.35.22:716][249]LogWorld: Bringing up level for play took: 0.001673
+[2016.09.21-10.35.22:717][249]PIE: Info Play in editor start time for /Game/UEDPIE_0_KeyPressDemo -0.272
+[2016.09.21-10.35.22:718][249]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.35.24:788][497]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.35.24:788][497]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.35.24:788][497]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-119.728 Y=-16.386 Z=79.331
+[2016.09.21-10.35.26:689][725]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.35.26:689][725]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.35.26:689][725]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-119.751 Y=-16.364 Z=79.289
+[2016.09.21-10.35.27:840][863]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.35.27:840][863]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.35.27:840][863]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-119.735 Y=-16.363 Z=79.308
+[2016.09.21-10.35.28:057][889]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.35.28:057][889]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.35.28:057][889]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-119.752 Y=-16.379 Z=79.315
+[2016.09.21-10.35.28:274][915]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.35.28:274][915]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.35.28:274][915]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-119.750 Y=-16.368 Z=79.307
+[2016.09.21-10.35.28:474][939]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.35.28:474][939]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.35.28:474][939]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-119.753 Y=-16.375 Z=79.335
+[2016.09.21-10.35.28:665][962]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.35.28:665][962]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.35.28:665][962]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-119.726 Y=-16.369 Z=79.348
+[2016.09.21-10.35.28:873][987]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.35.28:873][987]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.35.28:873][987]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-119.717 Y=-16.367 Z=79.338
+[2016.09.21-10.35.30:232][150]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.35.30:232][150]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.35.30:232][150]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-119.730 Y=-16.361 Z=79.346
+[2016.09.21-10.35.30:691][205]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.35.30:691][205]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.35.30:691][205]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-119.737 Y=-16.374 Z=79.336
+[2016.09.21-10.35.30:974][239]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.35.30:974][239]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.35.30:974][239]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-119.731 Y=-16.373 Z=79.332
+[2016.09.21-10.35.31:224][269]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.35.31:224][269]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.35.31:224][269]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-119.716 Y=-16.365 Z=79.333
+[2016.09.21-10.35.31:482][300]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.35.31:482][300]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.35.31:483][300]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-119.735 Y=-16.396 Z=79.326
+[2016.09.21-10.35.31:749][332]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.35.31:749][332]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.35.31:749][332]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-119.744 Y=-16.347 Z=79.341
+[2016.09.21-10.35.33:049][488]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.35.33:050][488]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.35.33:050][488]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-119.737 Y=-16.383 Z=79.346
+[2016.09.21-10.35.34:350][644]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.35.34:350][644]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.35.34:350][644]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-119.718 Y=-16.396 Z=79.347
+[2016.09.21-10.35.37:876][ 67]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.35.37:907][ 67]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.36.12:373][677]BlueprintLog: New page: Compile KeyPressDemo
+[2016.09.21-10.36.12:486][677]BlueprintEditorCompileResults: Info [0217.66] Compile of PersistentLevel.KeyPressDemo successful! [in 112 ms] (/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo)
+[2016.09.21-10.36.15:213][961]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.36.15:214][961]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.21-10.36.15:214][961]PIE: New page: PIE session: KeyPressDemo (21 Sep 2016 13:36:15)
+[2016.09.21-10.36.15:214][961]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KeyPressDemo
+[2016.09.21-10.36.15:220][961]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006171s)
+[2016.09.21-10.36.15:221][961]LogAIModule: Creating AISystem for world KeyPressDemo
+[2016.09.21-10.36.15:221][961]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2016.09.21-10.36.15:221][961]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KeyPressDemo.KeyPressDemo to /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo (0.007165s)
+[2016.09.21-10.36.15:246][961]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-10.36.15:253][961]LogInit: FAudioDevice initialized.
+[2016.09.21-10.36.15:305][961]LogWorld: Game class is 'GameMode'
+[2016.09.21-10.36.15:307][961]LogWorld: Bringing World /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo up for play (max tick rate 0) at 2016.09.21-12.36.15
+[2016.09.21-10.36.15:308][961]LogWorld: Bringing up level for play took: 0.001767
+[2016.09.21-10.36.15:309][961]PIE: Info Play in editor start time for /Game/UEDPIE_0_KeyPressDemo 0.319
+[2016.09.21-10.36.15:309][961]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.36.15:889][ 30]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.15:889][ 30]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.15:889][ 30]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.757 Y=-16.390 Z=79.304
+[2016.09.21-10.36.17:047][169]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.17:047][169]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.17:047][169]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.762 Y=-16.391 Z=79.308
+[2016.09.21-10.36.17:639][240]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.17:639][240]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.17:639][240]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.764 Y=-16.386 Z=79.320
+[2016.09.21-10.36.17:905][272]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.17:906][272]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.17:906][272]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.760 Y=-16.391 Z=79.306
+[2016.09.21-10.36.18:131][299]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.18:131][299]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.18:131][299]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.766 Y=-16.377 Z=79.317
+[2016.09.21-10.36.18:339][324]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.18:339][324]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.18:339][324]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.769 Y=-16.381 Z=79.309
+[2016.09.21-10.36.18:539][348]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.18:540][348]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.18:540][348]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.756 Y=-16.394 Z=79.323
+[2016.09.21-10.36.18:731][371]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.18:731][371]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.18:731][371]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.762 Y=-16.384 Z=79.299
+[2016.09.21-10.36.18:939][396]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.18:940][396]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.18:940][396]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.766 Y=-16.398 Z=79.307
+[2016.09.21-10.36.19:156][422]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.19:156][422]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.19:156][422]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.768 Y=-16.393 Z=79.307
+[2016.09.21-10.36.19:423][454]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.19:423][454]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.19:423][454]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.766 Y=-16.379 Z=79.305
+[2016.09.21-10.36.19:689][486]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.19:690][486]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.19:690][486]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.767 Y=-16.366 Z=79.299
+[2016.09.21-10.36.19:989][522]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.19:990][522]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.19:990][522]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.775 Y=-16.375 Z=79.310
+[2016.09.21-10.36.20:189][546]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.20:190][546]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.20:190][546]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.769 Y=-16.389 Z=79.307
+[2016.09.21-10.36.20:406][572]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.20:406][572]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.20:406][572]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.770 Y=-16.370 Z=79.296
+[2016.09.21-10.36.20:623][598]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.20:623][598]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.20:623][598]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.767 Y=-16.394 Z=79.308
+[2016.09.21-10.36.23:690][966]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.23:690][966]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.23:690][966]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.775 Y=-16.403 Z=79.308
+[2016.09.21-10.36.25:499][183]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.25:499][183]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.25:499][183]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.779 Y=-16.406 Z=79.299
+[2016.09.21-10.36.27:324][402]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.27:324][402]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.27:324][402]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.764 Y=-16.364 Z=79.306
+[2016.09.21-10.36.28:833][583]LogBlueprintUserMessages: [KeyPressDemo_C_0] Left Controller Position
+[2016.09.21-10.36.28:833][583]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.36.28:833][583]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.778 Y=-16.396 Z=79.284
+[2016.09.21-10.36.34:194][226]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.36.34:225][226]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.37.03:062][281]LogSavePackage: Save=156.11ms
+[2016.09.21-10.37.03:063][281]LogSavePackage: Moving '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/KeyPressDemoBFAF19194B9B7175BE10E5BE13A6EA14.tmp' to '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/KeyPressDemo.umap'
+[2016.09.21-10.37.03:066][281]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/KeyPressDemo.umap
+[2016.09.21-10.37.03:086][281]LogFileHelpers: Saving map 'KeyPressDemo' took 0.274
+[2016.09.21-10.37.06:129][635]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.37.06:129][635]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.21-10.37.06:129][635]PIE: New page: PIE session: KeyPressDemo (21 Sep 2016 13:37:06)
+[2016.09.21-10.37.06:129][635]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KeyPressDemo
+[2016.09.21-10.37.06:135][635]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006036s)
+[2016.09.21-10.37.06:136][635]LogAIModule: Creating AISystem for world KeyPressDemo
+[2016.09.21-10.37.06:136][635]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2016.09.21-10.37.06:136][635]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KeyPressDemo.KeyPressDemo to /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo (0.006913s)
+[2016.09.21-10.37.06:162][635]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-10.37.06:169][635]LogInit: FAudioDevice initialized.
+[2016.09.21-10.37.06:219][635]LogWorld: Game class is 'GameMode'
+[2016.09.21-10.37.06:222][635]LogWorld: Bringing World /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo up for play (max tick rate 0) at 2016.09.21-12.37.06
+[2016.09.21-10.37.06:222][635]LogWorld: Bringing up level for play took: 0.001929
+[2016.09.21-10.37.06:224][635]PIE: Info Play in editor start time for /Game/UEDPIE_0_KeyPressDemo -0.766
+[2016.09.21-10.37.06:224][635]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.37.06:795][703]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.37.06:795][703]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.812 Y=56.787 Z=83.470
+[2016.09.21-10.37.08:328][887]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.37.08:329][887]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-106.522 Y=88.930 Z=110.492
+[2016.09.21-10.37.09:045][973]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.37.09:045][973]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-136.805 Y=83.647 Z=90.749
+[2016.09.21-10.37.09:412][ 17]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.37.09:412][ 17]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-135.024 Y=83.128 Z=93.189
+[2016.09.21-10.37.09:662][ 47]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.37.09:662][ 47]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-134.789 Y=82.124 Z=93.555
+[2016.09.21-10.37.09:820][ 66]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.37.09:820][ 66]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-135.226 Y=81.983 Z=92.892
+[2016.09.21-10.37.10:004][ 88]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.37.10:004][ 88]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-136.714 Y=83.223 Z=89.321
+[2016.09.21-10.37.10:196][111]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.37.10:196][111]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-136.233 Y=84.429 Z=90.798
+[2016.09.21-10.37.10:429][139]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.37.10:429][139]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-135.519 Y=84.567 Z=92.203
+[2016.09.21-10.37.11:679][289]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.37.11:679][289]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-133.214 Y=84.903 Z=95.049
+[2016.09.21-10.37.12:829][427]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.37.12:830][427]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-110.349 Y=50.031 Z=83.446
+[2016.09.21-10.37.13:029][451]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-10.37.13:029][451]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-113.542 Y=52.069 Z=85.769
+[2016.09.21-10.37.14:055][574]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.37.14:087][574]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.37.38:303][ 90]LogSavePackage: Save=154.60ms
+[2016.09.21-10.37.38:304][ 90]LogSavePackage: Moving '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/KeyPressDemo9A675E834487AF69F6488EA7A0B4DAA3.tmp' to '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/KeyPressDemo.umap'
+[2016.09.21-10.37.38:308][ 90]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/KeyPressDemo.umap
+[2016.09.21-10.37.38:325][ 90]LogFileHelpers: Saving map 'KeyPressDemo' took 0.264
+[2016.09.21-10.38.24:966][190]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.38.24:966][190]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.21-10.38.24:966][190]PIE: New page: PIE session: KeyPressDemo (21 Sep 2016 13:38:24)
+[2016.09.21-10.38.24:966][190]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KeyPressDemo
+[2016.09.21-10.38.24:972][190]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006104s)
+[2016.09.21-10.38.24:973][190]LogAIModule: Creating AISystem for world KeyPressDemo
+[2016.09.21-10.38.24:973][190]LogPlayLevel: PIE: World Init took: (0.000586s)
+[2016.09.21-10.38.24:973][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KeyPressDemo.KeyPressDemo to /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo (0.007332s)
+[2016.09.21-10.38.24:999][190]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-10.38.25:007][190]LogInit: FAudioDevice initialized.
+[2016.09.21-10.38.25:058][190]LogWorld: Game class is 'GameMode'
+[2016.09.21-10.38.25:060][190]LogWorld: Bringing World /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo up for play (max tick rate 0) at 2016.09.21-12.38.25
+[2016.09.21-10.38.25:061][190]LogWorld: Bringing up level for play took: 0.001853
+[2016.09.21-10.38.25:062][190]PIE: Info Play in editor start time for /Game/UEDPIE_0_KeyPressDemo 0.072
+[2016.09.21-10.38.25:062][190]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.38.26:100][314]LogBlueprintUserMessages: [KeyPressDemo_C_0] Right Controller Position
+[2016.09.21-10.38.26:100][314]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-122.968 Y=60.934 Z=78.633
+[2016.09.21-10.38.26:192][325]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-10.38.26:809][399]LogBlueprintUserMessages: [KeyPressDemo_C_0] ButtonReleased
+[2016.09.21-10.38.26:892][409]LogBlueprintUserMessages: [KeyPressDemo_C_0] Completed Recording
+[2016.09.21-10.38.26:892][409]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.083 Y=-15.454 Z=79.288
+[2016.09.21-10.38.26:892][409]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.708 Y=38.701 Z=96.121
+[2016.09.21-10.38.26:892][409]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-114.085 Y=24.625 Z=98.202
+[2016.09.21-10.38.26:892][409]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-104.819 Y=13.181 Z=97.553
+[2016.09.21-10.38.26:892][409]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-94.266 Y=5.178 Z=94.369
+[2016.09.21-10.38.26:892][409]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-83.705 Y=1.180 Z=89.982
+[2016.09.21-10.38.26:892][409]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-76.816 Y=-0.431 Z=84.903
+[2016.09.21-10.38.26:892][409]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-74.437 Y=-1.004 Z=81.603
+[2016.09.21-10.38.27:409][471]LogBlueprintUserMessages: [KeyPressDemo_C_0] Right Controller Position
+[2016.09.21-10.38.27:409][471]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-123.018 Y=61.224 Z=78.350
+[2016.09.21-10.38.27:934][534]LogBlueprintUserMessages: [KeyPressDemo_C_0] ButtonReleased
+[2016.09.21-10.38.28:001][542]LogBlueprintUserMessages: [KeyPressDemo_C_0] Completed Recording
+[2016.09.21-10.38.28:001][542]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-111.208 Y=18.191 Z=94.199
+[2016.09.21-10.38.28:001][542]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-117.308 Y=31.701 Z=96.243
+[2016.09.21-10.38.28:001][542]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.170 Y=46.619 Z=96.189
+[2016.09.21-10.38.28:001][542]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-116.641 Y=59.783 Z=94.628
+[2016.09.21-10.38.28:001][542]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-113.698 Y=68.936 Z=90.801
+[2016.09.21-10.38.28:001][542]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-111.111 Y=75.274 Z=86.014
+[2016.09.21-10.38.28:484][600]LogBlueprintUserMessages: [KeyPressDemo_C_0] Right Controller Position
+[2016.09.21-10.38.28:484][600]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-123.006 Y=61.214 Z=78.362
+[2016.09.21-10.38.29:052][668]LogBlueprintUserMessages: [KeyPressDemo_C_0] ButtonReleased
+[2016.09.21-10.38.29:077][671]LogBlueprintUserMessages: [KeyPressDemo_C_0] Completed Recording
+[2016.09.21-10.38.29:078][671]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-122.826 Y=68.681 Z=78.624
+[2016.09.21-10.38.29:078][671]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-126.818 Y=61.934 Z=78.575
+[2016.09.21-10.38.29:078][671]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-130.057 Y=53.884 Z=77.556
+[2016.09.21-10.38.29:078][671]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-121.814 Y=40.970 Z=92.977
+[2016.09.21-10.38.29:078][671]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-120.811 Y=31.979 Z=92.973
+[2016.09.21-10.38.29:078][671]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-118.398 Y=23.265 Z=92.183
+[2016.09.21-10.38.38:623][816]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.38.38:652][816]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.42.41:619][453]LogSavePackage: Save=152.41ms
+[2016.09.21-10.42.41:619][453]LogSavePackage: Moving '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/KeyPressDemo3AE2191D40370D3D13ADA0A3E88AA9E2.tmp' to '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/KeyPressDemo.umap'
+[2016.09.21-10.42.41:623][453]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/KeyPressDemo.umap
+[2016.09.21-10.42.41:652][453]LogFileHelpers: Saving map 'KeyPressDemo' took 0.282
+[2016.09.21-10.42.46:229][997]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.42.46:229][997]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.21-10.42.46:229][997]PIE: New page: PIE session: KeyPressDemo (21 Sep 2016 13:42:46)
+[2016.09.21-10.42.46:229][997]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KeyPressDemo
+[2016.09.21-10.42.46:236][997]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006106s)
+[2016.09.21-10.42.46:236][997]LogAIModule: Creating AISystem for world KeyPressDemo
+[2016.09.21-10.42.46:236][997]LogPlayLevel: PIE: World Init took: (0.000709s)
+[2016.09.21-10.42.46:236][997]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KeyPressDemo.KeyPressDemo to /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo (0.007021s)
+[2016.09.21-10.42.46:261][997]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-10.42.46:268][997]LogInit: FAudioDevice initialized.
+[2016.09.21-10.42.46:319][997]LogWorld: Game class is 'GameMode'
+[2016.09.21-10.42.46:322][997]LogWorld: Bringing World /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo up for play (max tick rate 0) at 2016.09.21-12.42.46
+[2016.09.21-10.42.46:322][997]LogWorld: Bringing up level for play took: 0.001929
+[2016.09.21-10.42.46:323][997]PIE: Info Play in editor start time for /Game/UEDPIE_0_KeyPressDemo -0.667
+[2016.09.21-10.42.46:324][997]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.42.52:096][689]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-10.42.52:096][689]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.42.52:096][689]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.463 Y=-15.156 Z=79.686
+[2016.09.21-10.42.52:146][695]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-10.42.52:187][700]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-10.42.52:187][700]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-10.42.52:187][700]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.459 Y=-15.150 Z=79.698
+[2016.09.21-10.42.52:754][768]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-10.42.52:754][768]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-10.42.52:754][768]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.452 Y=-15.154 Z=79.693
+[2016.09.21-10.42.52:846][779]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-10.42.52:946][791]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-10.42.53:046][803]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-10.42.53:146][815]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-10.42.53:246][827]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-10.42.53:946][911]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-10.42.53:946][911]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-10.42.53:946][911]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.468 Y=-15.161 Z=79.694
+[2016.09.21-10.42.53:947][911]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.462 Y=-15.149 Z=79.701
+[2016.09.21-10.42.53:947][911]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.453 Y=-15.141 Z=79.699
+[2016.09.21-10.42.53:947][911]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.463 Y=-15.143 Z=79.690
+[2016.09.21-10.42.53:947][911]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.458 Y=-15.148 Z=79.685
+[2016.09.21-10.42.53:947][911]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-106.890 Y=3.768 Z=88.066
+[2016.09.21-10.42.53:947][911]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-103.095 Y=-1.656 Z=86.426
+[2016.09.21-10.42.53:947][911]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-98.840 Y=-6.032 Z=85.196
+[2016.09.21-10.42.53:947][911]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-93.486 Y=-9.418 Z=84.736
+[2016.09.21-10.42.53:947][911]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-90.481 Y=-12.223 Z=83.160
+[2016.09.21-10.42.53:947][911]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-87.348 Y=-14.443 Z=81.603
+[2016.09.21-10.42.53:947][911]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-82.433 Y=-15.486 Z=80.884
+[2016.09.21-10.42.54:638][994]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-10.42.54:638][994]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-77.372 Y=-16.187 Z=75.675
+[2016.09.21-10.42.55:288][ 72]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-10.42.55:330][ 77]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-10.42.55:330][ 77]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-82.921 Y=-13.118 Z=78.352
+[2016.09.21-10.42.55:330][ 77]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-92.229 Y=-5.344 Z=82.590
+[2016.09.21-10.42.55:330][ 77]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-101.372 Y=6.060 Z=87.214
+[2016.09.21-10.42.55:330][ 77]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-110.582 Y=18.623 Z=89.864
+[2016.09.21-10.42.55:330][ 77]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.975 Y=32.022 Z=90.846
+[2016.09.21-10.42.55:330][ 77]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-122.014 Y=46.958 Z=91.050
+[2016.09.21-10.42.55:330][ 77]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-123.343 Y=59.895 Z=91.526
+[2016.09.21-10.42.55:789][132]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-10.42.55:790][132]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-121.802 Y=76.368 Z=92.263
+[2016.09.21-10.42.56:231][185]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-10.42.56:281][191]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-10.42.56:281][191]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-123.569 Y=69.283 Z=91.849
+[2016.09.21-10.42.56:281][191]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-123.901 Y=58.663 Z=92.069
+[2016.09.21-10.42.56:281][191]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-123.047 Y=45.781 Z=91.994
+[2016.09.21-10.42.56:282][191]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-120.683 Y=32.347 Z=91.784
+[2016.09.21-10.42.56:282][191]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-116.056 Y=20.132 Z=91.713
+[2016.09.21-10.42.59:175][538]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.42.59:209][538]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.43.15:512][322]LogSavePackage: Save=154.07ms
+[2016.09.21-10.43.15:512][322]LogSavePackage: Moving '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/KeyPressDemo9491E6A2473C6B28ABF2FCB4DCE65EE5.tmp' to '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/KeyPressDemo.umap'
+[2016.09.21-10.43.15:516][322]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/KeyPressDemo.umap
+[2016.09.21-10.43.15:536][322]LogFileHelpers: Saving map 'KeyPressDemo' took 0.265
+[2016.09.21-10.43.17:687][572]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.43.17:687][572]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.21-10.43.17:687][572]PIE: New page: PIE session: KeyPressDemo (21 Sep 2016 13:43:17)
+[2016.09.21-10.43.17:687][572]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KeyPressDemo
+[2016.09.21-10.43.17:693][572]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005874s)
+[2016.09.21-10.43.17:694][572]LogAIModule: Creating AISystem for world KeyPressDemo
+[2016.09.21-10.43.17:694][572]LogPlayLevel: PIE: World Init took: (0.000803s)
+[2016.09.21-10.43.17:694][572]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KeyPressDemo.KeyPressDemo to /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo (0.006889s)
+[2016.09.21-10.43.17:720][572]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-10.43.17:727][572]LogInit: FAudioDevice initialized.
+[2016.09.21-10.43.17:778][572]LogWorld: Game class is 'GameMode'
+[2016.09.21-10.43.17:780][572]LogWorld: Bringing World /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo up for play (max tick rate 0) at 2016.09.21-12.43.17
+[2016.09.21-10.43.17:781][572]LogWorld: Bringing up level for play took: 0.001912
+[2016.09.21-10.43.17:782][572]PIE: Info Play in editor start time for /Game/UEDPIE_0_KeyPressDemo 0.792
+[2016.09.21-10.43.17:782][572]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.43.19:338][758]LogBlueprintUserMessages: [KeyPressDemo_C_0] Right Controller Position
+[2016.09.21-10.43.19:338][758]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-103.318 Y=5.770 Z=88.065
+[2016.09.21-10.43.19:954][832]LogBlueprintUserMessages: [KeyPressDemo_C_0] ButtonReleased
+[2016.09.21-10.43.20:029][841]LogBlueprintUserMessages: [KeyPressDemo_C_0] Completed Recording
+[2016.09.21-10.43.20:029][841]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-109.778 Y=16.363 Z=88.516
+[2016.09.21-10.43.20:029][841]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-117.660 Y=30.678 Z=88.376
+[2016.09.21-10.43.20:029][841]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-123.199 Y=45.371 Z=88.693
+[2016.09.21-10.43.20:029][841]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-125.653 Y=59.920 Z=89.347
+[2016.09.21-10.43.20:029][841]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-125.062 Y=71.720 Z=90.071
+[2016.09.21-10.43.20:029][841]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-123.676 Y=79.947 Z=89.753
+[2016.09.21-10.43.20:029][841]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-122.549 Y=84.554 Z=89.061
+[2016.09.21-10.43.20:504][898]LogBlueprintUserMessages: [KeyPressDemo_C_0] Right Controller Position
+[2016.09.21-10.43.20:504][898]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-123.049 Y=71.807 Z=89.270
+[2016.09.21-10.43.20:813][935]LogBlueprintUserMessages: [KeyPressDemo_C_0] ButtonReleased
+[2016.09.21-10.43.20:896][945]LogBlueprintUserMessages: [KeyPressDemo_C_0] Completed Recording
+[2016.09.21-10.43.20:896][945]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-122.943 Y=61.958 Z=90.221
+[2016.09.21-10.43.20:896][945]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-121.485 Y=48.199 Z=91.503
+[2016.09.21-10.43.20:896][945]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-117.852 Y=32.386 Z=91.355
+[2016.09.21-10.43.20:896][945]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-111.391 Y=17.086 Z=90.217
+[2016.09.21-10.43.21:797][ 53]LogBlueprintUserMessages: [KeyPressDemo_C_0] Right Controller Position
+[2016.09.21-10.43.21:797][ 53]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-84.204 Y=-10.206 Z=85.109
+[2016.09.21-10.43.22:288][112]LogBlueprintUserMessages: [KeyPressDemo_C_0] ButtonReleased
+[2016.09.21-10.43.22:288][112]LogBlueprintUserMessages: [KeyPressDemo_C_0] Completed Recording
+[2016.09.21-10.43.22:288][112]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-89.247 Y=-5.406 Z=86.445
+[2016.09.21-10.43.22:288][112]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-96.093 Y=1.855 Z=87.813
+[2016.09.21-10.43.22:288][112]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-104.200 Y=11.620 Z=88.685
+[2016.09.21-10.43.22:288][112]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-112.425 Y=24.392 Z=89.343
+[2016.09.21-10.43.22:288][112]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.276 Y=40.001 Z=89.932
+[2016.09.21-10.43.23:214][223]LogBlueprintUserMessages: [KeyPressDemo_C_0] Right Controller Position
+[2016.09.21-10.43.23:214][223]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.476 Y=82.446 Z=89.213
+[2016.09.21-10.43.23:614][271]LogBlueprintUserMessages: [KeyPressDemo_C_0] ButtonReleased
+[2016.09.21-10.43.23:705][282]LogBlueprintUserMessages: [KeyPressDemo_C_0] Completed Recording
+[2016.09.21-10.43.23:705][282]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.446 Y=81.906 Z=88.800
+[2016.09.21-10.43.23:705][282]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-120.062 Y=76.881 Z=88.651
+[2016.09.21-10.43.23:705][282]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-121.249 Y=62.669 Z=88.988
+[2016.09.21-10.43.23:705][282]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-119.092 Y=40.527 Z=88.905
+[2016.09.21-10.43.23:705][282]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-111.357 Y=17.395 Z=88.796
+[2016.09.21-10.43.25:039][442]LogBlueprintUserMessages: [KeyPressDemo_C_0] Right Controller Position
+[2016.09.21-10.43.25:039][442]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-92.693 Y=43.466 Z=83.288
+[2016.09.21-10.43.25:331][477]LogBlueprintUserMessages: [KeyPressDemo_C_0] ButtonReleased
+[2016.09.21-10.43.25:331][477]LogBlueprintUserMessages: [KeyPressDemo_C_0] Completed Recording
+[2016.09.21-10.43.25:331][477]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-91.109 Y=36.185 Z=84.299
+[2016.09.21-10.43.25:331][477]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-89.728 Y=14.701 Z=84.269
+[2016.09.21-10.43.25:331][477]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-81.946 Y=-11.174 Z=92.713
+[2016.09.21-10.43.25:998][557]LogBlueprintUserMessages: [KeyPressDemo_C_0] Right Controller Position
+[2016.09.21-10.43.25:998][557]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-65.078 Y=-23.861 Z=95.177
+[2016.09.21-10.43.26:290][592]LogBlueprintUserMessages: [KeyPressDemo_C_0] ButtonReleased
+[2016.09.21-10.43.26:290][592]LogBlueprintUserMessages: [KeyPressDemo_C_0] Completed Recording
+[2016.09.21-10.43.26:290][592]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-64.659 Y=-22.983 Z=95.083
+[2016.09.21-10.43.26:290][592]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-67.186 Y=-19.904 Z=94.147
+[2016.09.21-10.43.26:290][592]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-74.890 Y=-8.644 Z=92.135
+[2016.09.21-10.43.27:023][680]LogBlueprintUserMessages: [KeyPressDemo_C_0] Right Controller Position
+[2016.09.21-10.43.27:023][680]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-100.024 Y=61.495 Z=82.883
+[2016.09.21-10.43.27:357][720]LogBlueprintUserMessages: [KeyPressDemo_C_0] ButtonReleased
+[2016.09.21-10.43.27:415][727]LogBlueprintUserMessages: [KeyPressDemo_C_0] Completed Recording
+[2016.09.21-10.43.27:415][727]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-99.931 Y=60.120 Z=82.642
+[2016.09.21-10.43.27:415][727]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-101.080 Y=47.117 Z=83.393
+[2016.09.21-10.43.27:415][727]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-97.585 Y=21.125 Z=85.141
+[2016.09.21-10.43.27:415][727]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-88.200 Y=-3.967 Z=89.036
+[2016.09.21-10.43.28:033][801]LogBlueprintUserMessages: [KeyPressDemo_C_0] Right Controller Position
+[2016.09.21-10.43.28:033][801]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-70.454 Y=-20.065 Z=94.652
+[2016.09.21-10.43.28:917][907]LogBlueprintUserMessages: [KeyPressDemo_C_0] ButtonReleased
+[2016.09.21-10.43.28:926][908]LogBlueprintUserMessages: [KeyPressDemo_C_0] Completed Recording
+[2016.09.21-10.43.28:926][908]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-69.964 Y=-19.592 Z=93.410
+[2016.09.21-10.43.28:926][908]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-68.903 Y=-19.357 Z=92.882
+[2016.09.21-10.43.28:926][908]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-68.035 Y=-19.235 Z=93.014
+[2016.09.21-10.43.28:926][908]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-67.965 Y=-19.112 Z=92.994
+[2016.09.21-10.43.28:926][908]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-68.407 Y=-18.930 Z=92.761
+[2016.09.21-10.43.28:926][908]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-68.550 Y=-18.816 Z=92.439
+[2016.09.21-10.43.28:926][908]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-69.068 Y=-18.454 Z=92.211
+[2016.09.21-10.43.28:926][908]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-75.299 Y=-12.967 Z=91.396
+[2016.09.21-10.43.28:926][908]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-91.211 Y=11.109 Z=88.395
+[2016.09.21-10.43.30:151][ 55]LogBlueprintUserMessages: [KeyPressDemo_C_0] Right Controller Position
+[2016.09.21-10.43.30:151][ 55]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-102.503 Y=64.315 Z=81.042
+[2016.09.21-10.43.30:626][112]LogBlueprintUserMessages: [KeyPressDemo_C_0] ButtonReleased
+[2016.09.21-10.43.30:643][114]LogBlueprintUserMessages: [KeyPressDemo_C_0] Completed Recording
+[2016.09.21-10.43.30:643][114]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-102.923 Y=61.601 Z=81.273
+[2016.09.21-10.43.30:643][114]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-104.608 Y=51.014 Z=82.999
+[2016.09.21-10.43.30:643][114]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-104.101 Y=31.366 Z=84.625
+[2016.09.21-10.43.30:643][114]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-98.545 Y=7.721 Z=87.895
+[2016.09.21-10.43.30:643][114]LogBlueprintUserMessages: [KeyPressDemo_C_0] X=-89.047 Y=-10.470 Z=92.247
+[2016.09.21-10.43.33:236][425]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.43.33:264][425]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-10.54.42:135][281]LogSavePackage: Save=159.53ms
+[2016.09.21-10.54.42:135][281]LogSavePackage: Moving '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/KeyPressDemo_Auto1F0905371480C8440D359BC80AC6583FC.tmp' to '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/Autosaves/Game/KeyPressDemo_Auto1.umap'
+[2016.09.21-10.54.42:138][281]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/Autosaves/Game/KeyPressDemo_Auto1.umap
+[2016.09.21-10.54.42:147][281]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KeyPressDemo' took 0.258
+[2016.09.21-10.54.42:147][281]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.258
+[2016.09.21-10.55.14:169][499]LogSavePackage: Save=153.33ms
+[2016.09.21-10.55.14:169][499]LogSavePackage: Moving '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/KeyPressDemo4B7F46834F54ED44C8C57986A7B11FE6.tmp' to '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/KeyPressDemo.umap'
+[2016.09.21-10.55.14:173][499]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/KeyPressDemo.umap
+[2016.09.21-10.55.14:192][499]LogFileHelpers: Saving map 'KeyPressDemo' took 0.267
+[2016.09.21-11.05.14:580][559]LogSavePackage: Save=181.17ms
+[2016.09.21-11.05.14:580][559]LogSavePackage: Moving '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/KeyPressDemo_Auto2071487F34DE1BEF8561057BF2C6A7ADE.tmp' to '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/Autosaves/Game/KeyPressDemo_Auto2.umap'
+[2016.09.21-11.05.14:584][559]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/Autosaves/Game/KeyPressDemo_Auto2.umap
+[2016.09.21-11.05.14:587][559]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KeyPressDemo' took 0.231
+[2016.09.21-11.05.14:588][559]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.231
+[2016.09.21-11.15.15:456][480]LogSavePackage: Save=168.50ms
+[2016.09.21-11.15.15:456][480]LogSavePackage: Moving '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/KeyPressDemo_Auto3EFF94B92471678C2F93ECCA76E8920ED.tmp' to '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/Autosaves/Game/KeyPressDemo_Auto3.umap'
+[2016.09.21-11.15.15:465][480]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/Autosaves/Game/KeyPressDemo_Auto3.umap
+[2016.09.21-11.15.15:468][480]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KeyPressDemo' took 0.214
+[2016.09.21-11.15.15:468][480]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.214
+[2016.09.21-11.27.22:468][ 67]LogSavePackage: Save=175.66ms
+[2016.09.21-11.27.22:468][ 67]LogSavePackage: Moving '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/KeyPressDemo_Auto43F92ED3B46F30048D1EE2FAA0ED51C2B.tmp' to '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/Autosaves/Game/KeyPressDemo_Auto4.umap'
+[2016.09.21-11.27.22:470][ 67]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/Autosaves/Game/KeyPressDemo_Auto4.umap
+[2016.09.21-11.27.22:472][ 67]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/KeyPressDemo' took 0.288
+[2016.09.21-11.27.22:472][ 67]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.288
+[2016.09.21-11.35.20:156][285]LogSavePackage: Save=182.42ms
+[2016.09.21-11.35.20:156][285]LogSavePackage: Moving '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/KeyPressDemo307C297448CD85EC1AE25A916BE1040A.tmp' to '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/KeyPressDemo.umap'
+[2016.09.21-11.35.20:160][285]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/KeyPressDemo.umap
+[2016.09.21-11.35.20:191][285]LogFileHelpers: Saving map 'KeyPressDemo' took 0.318
+[2016.09.21-11.39.01:673][777]LogSavePackage: Save=185.26ms
+[2016.09.21-11.39.01:673][777]LogSavePackage: Moving '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/KeyPressDemo3F36958A4E5B23E4608670BF3D54CF01.tmp' to '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/KeyPressDemo.umap'
+[2016.09.21-11.39.01:689][777]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/KeyPressDemo.umap
+[2016.09.21-11.39.01:719][777]LogFileHelpers: Saving map 'KeyPressDemo' took 0.323
+[2016.09.21-11.39.07:209][412]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-11.39.07:209][412]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.21-11.39.07:209][412]PIE: New page: PIE session: KeyPressDemo (21 Sep 2016 14:39:07)
+[2016.09.21-11.39.07:210][412]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KeyPressDemo
+[2016.09.21-11.39.07:218][412]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007895s)
+[2016.09.21-11.39.07:219][412]LogAIModule: Creating AISystem for world KeyPressDemo
+[2016.09.21-11.39.07:219][412]LogPlayLevel: PIE: World Init took: (0.001375s)
+[2016.09.21-11.39.07:219][412]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KeyPressDemo.KeyPressDemo to /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo (0.009612s)
+[2016.09.21-11.39.07:247][412]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-11.39.07:256][412]LogInit: FAudioDevice initialized.
+[2016.09.21-11.39.07:305][412]LogWorld: Game class is 'GameMode'
+[2016.09.21-11.39.07:308][412]LogWorld: Bringing World /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo up for play (max tick rate 0) at 2016.09.21-13.39.07
+[2016.09.21-11.39.07:308][412]LogWorld: Bringing up level for play took: 0.002028
+[2016.09.21-11.39.07:310][412]PIE: Info Play in editor start time for /Game/UEDPIE_0_KeyPressDemo 0.32
+[2016.09.21-11.39.07:310][412]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-11.39.16:534][518]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.39.16:534][518]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.39.16:534][518]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-116.833 Y=-14.316 Z=80.929
+[2016.09.21-11.39.16:626][529]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.16:726][541]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.16:826][553]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.16:926][565]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.17:009][575]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.39.17:026][577]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.17:026][577]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.39.17:026][577]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-116.829 Y=-14.314 Z=80.938
+[2016.09.21-11.39.17:026][577]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-116.838 Y=-14.319 Z=80.941
+[2016.09.21-11.39.17:026][577]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-116.836 Y=-14.314 Z=80.941
+[2016.09.21-11.39.17:026][577]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-116.847 Y=-14.306 Z=80.928
+[2016.09.21-11.39.17:026][577]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-116.840 Y=-14.328 Z=80.925
+[2016.09.21-11.39.18:118][708]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.39.18:118][708]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.39.18:118][708]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-116.872 Y=-14.332 Z=80.894
+[2016.09.21-11.39.18:209][719]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.18:309][731]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.18:410][743]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.18:509][755]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.18:609][767]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.18:668][774]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.39.18:710][779]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.18:710][779]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.39.18:710][779]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-116.879 Y=-14.335 Z=80.893
+[2016.09.21-11.39.18:710][779]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-116.883 Y=-14.330 Z=80.897
+[2016.09.21-11.39.18:710][779]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-116.875 Y=-14.341 Z=80.907
+[2016.09.21-11.39.18:710][779]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-116.882 Y=-14.337 Z=80.883
+[2016.09.21-11.39.18:710][779]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-116.886 Y=-14.329 Z=80.877
+[2016.09.21-11.39.18:710][779]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-116.880 Y=-14.347 Z=80.888
+[2016.09.21-11.39.19:402][862]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-11.39.19:402][862]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-94.576 Y=-14.968 Z=79.172
+[2016.09.21-11.39.20:560][  1]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-11.39.20:560][  1]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.467 Y=105.572 Z=134.442
+[2016.09.21-11.39.21:643][131]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-11.39.21:645][131]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-104.390 Y=42.759 Z=85.444
+[2016.09.21-11.39.21:893][161]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-11.39.21:893][161]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-112.827 Y=53.602 Z=92.218
+[2016.09.21-11.39.22:036][178]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-11.39.22:036][178]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-114.648 Y=54.684 Z=91.764
+[2016.09.21-11.39.23:662][373]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.39.23:662][373]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.39.23:662][373]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.021 Y=-14.416 Z=80.796
+[2016.09.21-11.39.23:753][384]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.23:854][396]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.23:953][408]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.24:053][420]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.24:154][432]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.24:253][444]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.24:304][450]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.39.24:354][456]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.24:354][456]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.39.24:354][456]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.021 Y=-14.408 Z=80.797
+[2016.09.21-11.39.24:354][456]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.020 Y=-14.416 Z=80.813
+[2016.09.21-11.39.24:354][456]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.023 Y=-14.398 Z=80.803
+[2016.09.21-11.39.24:354][456]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.024 Y=-14.406 Z=80.785
+[2016.09.21-11.39.24:354][456]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.027 Y=-14.414 Z=80.787
+[2016.09.21-11.39.24:354][456]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.028 Y=-14.417 Z=80.796
+[2016.09.21-11.39.24:354][456]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.040 Y=-14.412 Z=80.777
+[2016.09.21-11.39.24:879][519]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.39.24:879][519]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.39.24:879][519]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.051 Y=-14.423 Z=80.797
+[2016.09.21-11.39.24:971][530]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.25:071][542]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.25:171][554]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.25:271][566]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.25:371][578]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.25:471][590]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.25:571][602]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.25:671][614]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.25:771][626]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.39.25:771][626]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.25:771][626]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.39.25:771][626]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.048 Y=-14.429 Z=80.788
+[2016.09.21-11.39.25:771][626]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.041 Y=-14.432 Z=80.784
+[2016.09.21-11.39.25:771][626]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.061 Y=-14.427 Z=80.779
+[2016.09.21-11.39.25:771][626]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.063 Y=-14.423 Z=80.785
+[2016.09.21-11.39.25:771][626]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.070 Y=-14.414 Z=80.764
+[2016.09.21-11.39.25:772][626]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.067 Y=-14.424 Z=80.738
+[2016.09.21-11.39.25:772][626]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.069 Y=-14.428 Z=80.758
+[2016.09.21-11.39.25:772][626]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.061 Y=-14.432 Z=80.790
+[2016.09.21-11.39.25:772][626]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.055 Y=-14.444 Z=80.775
+[2016.09.21-11.39.28:272][926]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.39.28:272][926]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.39.28:272][926]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.135 Y=-14.450 Z=80.721
+[2016.09.21-11.39.28:364][937]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.28:464][949]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.28:564][961]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.28:663][973]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.28:763][985]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.28:864][997]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.28:963][  9]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.29:065][ 21]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.29:165][ 33]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.29:265][ 45]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.29:365][ 57]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.29:466][ 69]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.29:474][ 70]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.39.29:565][ 81]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.29:565][ 81]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.39.29:565][ 81]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.127 Y=-14.446 Z=80.734
+[2016.09.21-11.39.29:565][ 81]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.134 Y=-14.463 Z=80.723
+[2016.09.21-11.39.29:565][ 81]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.135 Y=-14.467 Z=80.718
+[2016.09.21-11.39.29:565][ 81]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.133 Y=-14.452 Z=80.727
+[2016.09.21-11.39.29:565][ 81]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.137 Y=-14.454 Z=80.721
+[2016.09.21-11.39.29:565][ 81]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.143 Y=-14.446 Z=80.721
+[2016.09.21-11.39.29:566][ 81]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.132 Y=-14.464 Z=80.721
+[2016.09.21-11.39.29:566][ 81]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.120 Y=-14.487 Z=80.725
+[2016.09.21-11.39.29:566][ 81]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.156 Y=-14.460 Z=80.691
+[2016.09.21-11.39.29:566][ 81]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.163 Y=-14.463 Z=80.701
+[2016.09.21-11.39.29:566][ 81]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.151 Y=-14.460 Z=80.709
+[2016.09.21-11.39.29:566][ 81]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.148 Y=-14.467 Z=80.719
+[2016.09.21-11.39.29:566][ 81]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.142 Y=-14.468 Z=80.735
+[2016.09.21-11.39.32:133][389]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.39.32:133][389]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.39.32:133][389]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.198 Y=-14.479 Z=80.675
+[2016.09.21-11.39.32:225][400]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.32:324][412]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.32:425][424]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.32:524][436]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.32:625][448]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.32:725][460]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.32:825][472]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.32:925][484]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.33:025][496]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.33:125][508]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.33:225][520]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.33:325][532]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.33:425][544]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.33:516][555]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.39.33:525][556]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.33:525][556]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.39.33:525][556]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.211 Y=-14.493 Z=80.668
+[2016.09.21-11.39.33:525][556]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.206 Y=-14.499 Z=80.681
+[2016.09.21-11.39.33:525][556]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.215 Y=-14.499 Z=80.682
+[2016.09.21-11.39.33:525][556]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.216 Y=-14.491 Z=80.663
+[2016.09.21-11.39.33:525][556]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.218 Y=-14.489 Z=80.660
+[2016.09.21-11.39.33:525][556]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.222 Y=-14.492 Z=80.656
+[2016.09.21-11.39.33:525][556]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.226 Y=-14.499 Z=80.667
+[2016.09.21-11.39.33:525][556]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.224 Y=-14.507 Z=80.672
+[2016.09.21-11.39.33:525][556]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.219 Y=-14.502 Z=80.670
+[2016.09.21-11.39.33:525][556]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.219 Y=-14.496 Z=80.660
+[2016.09.21-11.39.33:525][556]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.222 Y=-14.489 Z=80.654
+[2016.09.21-11.39.33:525][556]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.231 Y=-14.513 Z=80.645
+[2016.09.21-11.39.33:525][556]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.234 Y=-14.511 Z=80.653
+[2016.09.21-11.39.33:525][556]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.234 Y=-14.496 Z=80.646
+[2016.09.21-11.39.35:734][821]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.39.35:734][821]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.39.35:734][821]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.208 Y=-14.596 Z=80.608
+[2016.09.21-11.39.35:826][832]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.35:925][844]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.36:026][856]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.36:125][868]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.36:175][874]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.39.36:225][880]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.36:225][880]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.39.36:225][880]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.229 Y=-14.585 Z=80.586
+[2016.09.21-11.39.36:225][880]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.244 Y=-14.552 Z=80.610
+[2016.09.21-11.39.36:225][880]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.254 Y=-14.545 Z=80.656
+[2016.09.21-11.39.36:226][880]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.253 Y=-14.540 Z=80.641
+[2016.09.21-11.39.36:226][880]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.253 Y=-14.539 Z=80.638
+[2016.09.21-11.39.36:517][915]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.39.36:517][915]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.39.36:517][915]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.262 Y=-14.515 Z=80.613
+[2016.09.21-11.39.36:609][926]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.36:709][938]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.36:809][950]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.36:909][962]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.36:934][965]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.39.37:009][974]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.37:009][974]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.39.37:009][974]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.263 Y=-14.521 Z=80.622
+[2016.09.21-11.39.37:009][974]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.259 Y=-14.523 Z=80.614
+[2016.09.21-11.39.37:009][974]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.270 Y=-14.531 Z=80.625
+[2016.09.21-11.39.37:009][974]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.263 Y=-14.530 Z=80.626
+[2016.09.21-11.39.37:009][974]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.267 Y=-14.530 Z=80.633
+[2016.09.21-11.39.37:234][  1]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.39.37:234][  1]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.39.37:234][  1]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.282 Y=-14.526 Z=80.618
+[2016.09.21-11.39.37:326][ 12]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.37:426][ 24]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.37:459][ 28]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.39.37:526][ 36]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.37:526][ 36]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.39.37:526][ 36]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.274 Y=-14.523 Z=80.609
+[2016.09.21-11.39.37:526][ 36]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.278 Y=-14.522 Z=80.614
+[2016.09.21-11.39.37:526][ 36]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.275 Y=-14.537 Z=80.634
+[2016.09.21-11.39.37:634][ 49]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.39.37:634][ 49]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.39.37:634][ 49]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.274 Y=-14.533 Z=80.632
+[2016.09.21-11.39.37:726][ 60]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.37:767][ 65]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.39.37:826][ 72]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.37:826][ 72]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.39.37:826][ 72]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.279 Y=-14.530 Z=80.626
+[2016.09.21-11.39.37:826][ 72]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.288 Y=-14.539 Z=80.630
+[2016.09.21-11.39.37:876][ 78]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.39.37:876][ 78]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.39.37:876][ 78]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.282 Y=-14.542 Z=80.629
+[2016.09.21-11.39.37:967][ 89]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.38:026][ 96]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.39.38:067][101]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.38:067][101]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.39.38:068][101]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.278 Y=-14.530 Z=80.622
+[2016.09.21-11.39.38:068][101]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.289 Y=-14.536 Z=80.622
+[2016.09.21-11.39.38:109][106]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.39.38:109][106]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.39.38:109][106]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.282 Y=-14.536 Z=80.621
+[2016.09.21-11.39.38:201][117]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.38:301][129]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.38:401][141]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.38:501][153]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.38:601][165]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.38:701][177]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.38:801][189]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.38:901][201]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.39:001][213]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.39:101][225]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.39:201][237]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.39:301][249]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.39:401][261]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.39:501][273]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.39:601][285]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.39:701][297]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.39:801][309]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.39:901][321]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.40:001][333]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.40:101][345]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.40:201][357]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.40:218][359]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.39.40:301][369]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.40:301][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.39.40:301][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.293 Y=-14.539 Z=80.617
+[2016.09.21-11.39.40:301][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.283 Y=-14.527 Z=80.622
+[2016.09.21-11.39.40:301][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.291 Y=-14.529 Z=80.623
+[2016.09.21-11.39.40:301][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.290 Y=-14.546 Z=80.619
+[2016.09.21-11.39.40:301][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.302 Y=-14.546 Z=80.617
+[2016.09.21-11.39.40:301][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.298 Y=-14.536 Z=80.611
+[2016.09.21-11.39.40:301][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.295 Y=-14.542 Z=80.599
+[2016.09.21-11.39.40:301][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.307 Y=-14.540 Z=80.606
+[2016.09.21-11.39.40:301][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.301 Y=-14.558 Z=80.617
+[2016.09.21-11.39.40:301][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.300 Y=-14.542 Z=80.604
+[2016.09.21-11.39.40:301][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.303 Y=-14.547 Z=80.612
+[2016.09.21-11.39.40:301][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.311 Y=-14.552 Z=80.608
+[2016.09.21-11.39.40:302][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.308 Y=-14.546 Z=80.600
+[2016.09.21-11.39.40:302][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.305 Y=-14.547 Z=80.607
+[2016.09.21-11.39.40:302][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.310 Y=-14.546 Z=80.603
+[2016.09.21-11.39.40:302][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.312 Y=-14.562 Z=80.617
+[2016.09.21-11.39.40:302][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.321 Y=-14.553 Z=80.603
+[2016.09.21-11.39.40:302][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.313 Y=-14.550 Z=80.599
+[2016.09.21-11.39.40:302][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.319 Y=-14.566 Z=80.590
+[2016.09.21-11.39.40:302][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.316 Y=-14.549 Z=80.585
+[2016.09.21-11.39.40:302][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.322 Y=-14.556 Z=80.586
+[2016.09.21-11.39.40:302][369]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.319 Y=-14.551 Z=80.600
+[2016.09.21-11.39.41:427][504]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.39.41:427][504]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.39.41:427][504]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.326 Y=-14.572 Z=80.579
+[2016.09.21-11.39.41:518][515]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.41:618][527]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.41:718][539]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.41:818][551]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.41:918][563]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.42:018][575]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.42:118][587]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.42:218][599]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.42:318][611]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.42:418][623]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.42:518][635]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.42:618][647]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.42:718][659]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.42:727][660]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.39.42:818][671]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.42:818][671]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.39.42:819][671]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.337 Y=-14.579 Z=80.586
+[2016.09.21-11.39.42:819][671]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.356 Y=-14.574 Z=80.560
+[2016.09.21-11.39.42:819][671]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.347 Y=-14.564 Z=80.568
+[2016.09.21-11.39.42:819][671]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.349 Y=-14.565 Z=80.584
+[2016.09.21-11.39.42:819][671]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.350 Y=-14.555 Z=80.587
+[2016.09.21-11.39.42:819][671]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.346 Y=-14.560 Z=80.580
+[2016.09.21-11.39.42:819][671]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.349 Y=-14.562 Z=80.560
+[2016.09.21-11.39.42:819][671]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.359 Y=-14.576 Z=80.559
+[2016.09.21-11.39.42:819][671]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.362 Y=-14.573 Z=80.574
+[2016.09.21-11.39.42:819][671]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.361 Y=-14.566 Z=80.576
+[2016.09.21-11.39.42:819][671]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.356 Y=-14.569 Z=80.578
+[2016.09.21-11.39.42:819][671]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.352 Y=-14.580 Z=80.576
+[2016.09.21-11.39.42:819][671]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.363 Y=-14.584 Z=80.561
+[2016.09.21-11.39.42:819][671]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.368 Y=-14.574 Z=80.564
+[2016.09.21-11.39.44:852][915]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.39.44:852][915]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.39.44:852][915]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.390 Y=-14.599 Z=80.528
+[2016.09.21-11.39.44:944][926]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.45:043][938]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.45:144][950]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.45:243][962]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.45:344][974]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.45:443][986]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.45:544][998]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.45:643][ 10]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.45:736][ 21]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.39.45:743][ 22]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.39.45:743][ 22]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.39.45:743][ 22]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.404 Y=-14.594 Z=80.537
+[2016.09.21-11.39.45:743][ 22]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.402 Y=-14.592 Z=80.534
+[2016.09.21-11.39.45:743][ 22]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.400 Y=-14.599 Z=80.535
+[2016.09.21-11.39.45:743][ 22]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.401 Y=-14.619 Z=80.546
+[2016.09.21-11.39.45:743][ 22]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.396 Y=-14.604 Z=80.541
+[2016.09.21-11.39.45:743][ 22]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.407 Y=-14.608 Z=80.534
+[2016.09.21-11.39.45:743][ 22]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.402 Y=-14.601 Z=80.530
+[2016.09.21-11.39.45:743][ 22]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.401 Y=-14.607 Z=80.534
+[2016.09.21-11.39.45:743][ 22]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.409 Y=-14.593 Z=80.527
+[2016.09.21-11.39.51:371][697]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-11.39.51:407][697]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-11.40.47:156][527]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-11.40.47:156][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.21-11.40.47:157][527]PIE: New page: PIE session: KeyPressDemo (21 Sep 2016 14:40:47)
+[2016.09.21-11.40.47:157][527]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KeyPressDemo
+[2016.09.21-11.40.47:164][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006878s)
+[2016.09.21-11.40.47:164][527]LogAIModule: Creating AISystem for world KeyPressDemo
+[2016.09.21-11.40.47:164][527]LogPlayLevel: PIE: World Init took: (0.000607s)
+[2016.09.21-11.40.47:164][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KeyPressDemo.KeyPressDemo to /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo (0.007725s)
+[2016.09.21-11.40.47:188][527]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-11.40.47:195][527]LogInit: FAudioDevice initialized.
+[2016.09.21-11.40.47:243][527]LogWorld: Game class is 'GameMode'
+[2016.09.21-11.40.47:245][527]LogWorld: Bringing World /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo up for play (max tick rate 0) at 2016.09.21-13.40.47
+[2016.09.21-11.40.47:245][527]LogWorld: Bringing up level for play took: 0.001895
+[2016.09.21-11.40.47:247][527]PIE: Info Play in editor start time for /Game/UEDPIE_0_KeyPressDemo 0.257
+[2016.09.21-11.40.47:247][527]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-11.40.48:511][678]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.40.48:511][678]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.40.48:511][678]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.050 Y=-15.058 Z=80.075
+[2016.09.21-11.40.48:603][689]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.48:703][701]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.48:803][713]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.48:903][725]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.49:003][737]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.49:103][749]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.49:203][761]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.49:303][773]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.49:403][785]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.49:503][797]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.49:603][809]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.49:703][821]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.49:803][833]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.49:903][845]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.50:003][857]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.50:103][869]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.50:203][881]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.50:303][893]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.50:403][905]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.50:503][917]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.50:603][929]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.50:703][941]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.50:803][953]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.50:903][965]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.51:003][977]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.51:103][989]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.51:203][  1]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.51:303][ 13]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.51:404][ 25]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.51:504][ 37]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.51:604][ 49]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.51:704][ 61]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.51:804][ 73]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.51:904][ 85]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.51:937][ 89]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.40.52:004][ 97]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.042 Y=-15.042 Z=80.080
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.045 Y=-15.043 Z=80.064
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.051 Y=-15.062 Z=80.065
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.046 Y=-15.049 Z=80.078
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.046 Y=-15.051 Z=80.078
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.052 Y=-15.042 Z=80.078
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.046 Y=-15.045 Z=80.090
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.043 Y=-15.051 Z=80.088
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.055 Y=-15.048 Z=80.074
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.052 Y=-15.057 Z=80.067
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.052 Y=-15.055 Z=80.059
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.069 Y=-15.047 Z=80.061
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.048 Y=-15.056 Z=80.071
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.060 Y=-15.056 Z=80.058
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.063 Y=-15.053 Z=80.070
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.056 Y=-15.042 Z=80.081
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.058 Y=-15.059 Z=80.081
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.054 Y=-15.047 Z=80.081
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.047 Y=-15.068 Z=80.083
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.055 Y=-15.050 Z=80.074
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.052 Y=-15.048 Z=80.070
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.056 Y=-15.057 Z=80.073
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.058 Y=-15.054 Z=80.068
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.059 Y=-15.048 Z=80.059
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.063 Y=-15.051 Z=80.082
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.059 Y=-15.049 Z=80.076
+[2016.09.21-11.40.52:004][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.062 Y=-15.043 Z=80.060
+[2016.09.21-11.40.52:005][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.066 Y=-15.064 Z=80.069
+[2016.09.21-11.40.52:005][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.058 Y=-15.043 Z=80.057
+[2016.09.21-11.40.52:005][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.075 Y=-15.052 Z=80.057
+[2016.09.21-11.40.52:005][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.057 Y=-15.045 Z=80.051
+[2016.09.21-11.40.52:005][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.059 Y=-15.061 Z=80.070
+[2016.09.21-11.40.52:005][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.064 Y=-15.074 Z=80.082
+[2016.09.21-11.40.52:005][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.069 Y=-15.052 Z=80.083
+[2016.09.21-11.40.52:005][ 97]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.066 Y=-15.056 Z=80.068
+[2016.09.21-11.40.55:413][506]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.40.55:413][506]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.40.55:413][506]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.093 Y=-15.067 Z=80.055
+[2016.09.21-11.40.55:505][517]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.55:605][529]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.55:705][541]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.55:805][553]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.55:905][565]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.56:005][577]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.56:105][589]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.56:205][601]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.56:305][613]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.56:405][625]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.56:505][637]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.56:530][640]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.40.56:605][649]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.56:605][649]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.40.56:605][649]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.093 Y=-15.064 Z=80.039
+[2016.09.21-11.40.56:605][649]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.091 Y=-15.071 Z=80.060
+[2016.09.21-11.40.56:605][649]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.104 Y=-15.061 Z=80.062
+[2016.09.21-11.40.56:605][649]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.092 Y=-15.059 Z=80.063
+[2016.09.21-11.40.56:605][649]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.087 Y=-15.073 Z=80.078
+[2016.09.21-11.40.56:605][649]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.091 Y=-15.065 Z=80.069
+[2016.09.21-11.40.56:605][649]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.091 Y=-15.060 Z=80.054
+[2016.09.21-11.40.56:605][649]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.099 Y=-15.061 Z=80.054
+[2016.09.21-11.40.56:605][649]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.100 Y=-15.051 Z=80.049
+[2016.09.21-11.40.56:605][649]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.093 Y=-15.061 Z=80.054
+[2016.09.21-11.40.56:605][649]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.093 Y=-15.063 Z=80.068
+[2016.09.21-11.40.56:605][649]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.097 Y=-15.070 Z=80.056
+[2016.09.21-11.40.58:773][909]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.40.58:773][909]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.40.58:773][909]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.107 Y=-15.078 Z=80.050
+[2016.09.21-11.40.58:865][920]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.58:964][932]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.59:064][944]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.59:164][956]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.59:263][968]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.59:364][980]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.59:465][992]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.59:565][  4]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.59:665][ 16]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.59:765][ 28]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.59:863][ 40]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.40.59:965][ 52]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.00:065][ 64]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.00:165][ 76]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.00:265][ 88]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.00:365][100]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.00:465][112]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.00:565][124]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.00:665][136]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.00:765][148]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.00:865][160]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.00:965][172]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.01:065][184]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.01:165][196]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.01:265][208]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.01:365][220]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.01:465][232]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.01:565][244]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.01:665][256]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.01:765][268]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.01:865][280]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.01:965][292]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.02:065][304]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.02:165][316]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.02:265][328]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.02:365][340]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.02:465][352]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.02:565][364]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.02:665][376]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.02:765][388]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.02:865][400]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.02:965][412]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.03:065][424]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.03:165][436]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.03:265][448]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.03:365][460]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.03:465][472]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.03:566][484]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.03:666][496]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.03:766][508]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.03:866][520]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.117 Y=-15.064 Z=80.057
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.111 Y=-15.069 Z=80.045
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.101 Y=-15.067 Z=80.056
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.098 Y=-15.067 Z=80.059
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.115 Y=-15.067 Z=80.063
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.106 Y=-15.070 Z=80.048
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.115 Y=-15.073 Z=80.037
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.125 Y=-15.068 Z=80.048
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.114 Y=-15.076 Z=80.067
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.105 Y=-15.076 Z=80.048
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.110 Y=-15.056 Z=80.041
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.116 Y=-15.052 Z=80.028
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.108 Y=-15.067 Z=80.026
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.118 Y=-15.076 Z=80.046
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.119 Y=-15.067 Z=80.038
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.112 Y=-15.066 Z=80.031
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.113 Y=-15.083 Z=80.054
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.122 Y=-15.073 Z=80.045
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.115 Y=-15.078 Z=80.039
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.126 Y=-15.071 Z=80.031
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.114 Y=-15.075 Z=80.042
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.121 Y=-15.065 Z=80.048
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.122 Y=-15.068 Z=80.031
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.116 Y=-15.072 Z=80.043
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.117 Y=-15.067 Z=80.028
+[2016.09.21-11.41.03:866][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.130 Y=-15.082 Z=80.033
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.121 Y=-15.077 Z=80.049
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.127 Y=-15.072 Z=80.051
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.120 Y=-15.067 Z=80.031
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.121 Y=-15.063 Z=80.041
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.119 Y=-15.079 Z=80.055
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.126 Y=-15.073 Z=80.038
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.131 Y=-15.062 Z=80.026
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.127 Y=-15.073 Z=80.046
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.126 Y=-15.081 Z=80.037
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.124 Y=-15.079 Z=80.051
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.129 Y=-15.070 Z=80.044
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.123 Y=-15.073 Z=80.031
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.128 Y=-15.062 Z=80.030
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.131 Y=-15.072 Z=80.032
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.124 Y=-15.089 Z=80.051
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.126 Y=-15.076 Z=80.017
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.130 Y=-15.069 Z=80.023
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.130 Y=-15.068 Z=80.022
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.132 Y=-15.074 Z=80.046
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.128 Y=-15.077 Z=80.051
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.122 Y=-15.081 Z=80.038
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.127 Y=-15.082 Z=80.027
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.139 Y=-15.087 Z=80.036
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.133 Y=-15.081 Z=80.036
+[2016.09.21-11.41.03:867][520]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.139 Y=-15.072 Z=80.033
+[2016.09.21-11.41.04:491][595]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.06:483][834]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.06:483][834]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.41.06:483][834]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.159 Y=-15.092 Z=80.000
+[2016.09.21-11.41.06:576][845]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.06:576][845]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.06:576][845]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.160 Y=-15.105 Z=80.013
+[2016.09.21-11.41.06:667][856]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.07:867][  0]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.07:868][  0]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.41.07:868][  0]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.154 Y=-15.084 Z=80.024
+[2016.09.21-11.41.07:959][ 11]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.07:959][ 11]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.07:959][ 11]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.158 Y=-15.089 Z=80.024
+[2016.09.21-11.41.08:017][ 18]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.09:601][208]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.09:601][208]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.41.09:601][208]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.168 Y=-15.081 Z=80.012
+[2016.09.21-11.41.09:693][219]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.09:693][219]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.09:693][219]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.165 Y=-15.093 Z=80.022
+[2016.09.21-11.41.10:593][327]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.11:761][467]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.11:761][467]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.41.11:761][467]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.163 Y=-15.107 Z=80.016
+[2016.09.21-11.41.11:852][478]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.11:852][478]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.11:852][478]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.168 Y=-15.105 Z=79.983
+[2016.09.21-11.41.12:561][563]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.13:570][684]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.13:570][684]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.41.13:571][684]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.179 Y=-15.104 Z=80.014
+[2016.09.21-11.41.13:662][695]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.13:662][695]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.13:662][695]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.179 Y=-15.096 Z=79.993
+[2016.09.21-11.41.14:238][764]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.15:021][858]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.15:021][858]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.41.15:021][858]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.183 Y=-15.093 Z=80.002
+[2016.09.21-11.41.15:113][869]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.15:113][869]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.15:113][869]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.189 Y=-15.113 Z=80.007
+[2016.09.21-11.41.17:080][105]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.20:506][516]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.20:506][516]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.41.20:506][516]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.203 Y=-15.119 Z=79.981
+[2016.09.21-11.41.20:598][527]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.20:598][527]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.20:598][527]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.204 Y=-15.111 Z=79.995
+[2016.09.21-11.41.21:657][654]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.22:090][706]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.22:090][706]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.41.22:090][706]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.213 Y=-15.113 Z=79.990
+[2016.09.21-11.41.22:182][717]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.22:182][717]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.22:182][717]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.214 Y=-15.117 Z=79.978
+[2016.09.21-11.41.22:632][771]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.22:815][793]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.22:815][793]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.41.22:815][793]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.211 Y=-15.108 Z=79.983
+[2016.09.21-11.41.22:907][804]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.22:907][804]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.22:907][804]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.215 Y=-15.102 Z=79.970
+[2016.09.21-11.41.23:349][857]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.23:432][867]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.23:432][867]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.41.23:432][867]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.219 Y=-15.104 Z=79.980
+[2016.09.21-11.41.23:523][878]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.23:524][878]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.23:524][878]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.223 Y=-15.113 Z=79.988
+[2016.09.21-11.41.23:573][884]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.23:615][889]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.23:615][889]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.41.23:615][889]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.216 Y=-15.118 Z=79.974
+[2016.09.21-11.41.23:707][900]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.23:707][900]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.23:707][900]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.201 Y=-15.120 Z=79.966
+[2016.09.21-11.41.23:949][929]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.23:999][935]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.23:999][935]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds out of bounds [1/0]!
+
+[2016.09.21-11.41.23:999][935]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.225 Y=-15.114 Z=79.977
+[2016.09.21-11.41.24:090][946]LogScriptCore:Warning: Attempted to get an item from array CallFunc_GetValidTrackedDeviceIds_OutTrackedDeviceIds2 out of bounds [1/0]!
+
+[2016.09.21-11.41.24:090][946]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.24:090][946]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-118.225 Y=-15.104 Z=79.979
+[2016.09.21-11.41.24:323][974]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.25:833][155]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-11.41.25:833][155]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.921 Y=11.461 Z=84.914
+[2016.09.21-11.41.27:150][313]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-11.41.27:151][313]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-111.320 Y=72.027 Z=82.379
+[2016.09.21-11.41.27:401][343]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-11.41.27:401][343]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-114.916 Y=68.051 Z=82.171
+[2016.09.21-11.41.27:642][372]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-11.41.27:643][372]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-116.835 Y=65.746 Z=81.442
+[2016.09.21-11.41.27:851][397]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-11.41.27:851][397]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-117.839 Y=65.554 Z=79.765
+[2016.09.21-11.41.28:059][422]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-11.41.28:059][422]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-119.018 Y=65.192 Z=77.998
+[2016.09.21-11.41.28:276][448]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-11.41.28:276][448]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-122.439 Y=61.671 Z=75.461
+[2016.09.21-11.41.28:459][470]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-11.41.28:459][470]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-125.680 Y=56.976 Z=73.417
+[2016.09.21-11.41.28:659][494]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-11.41.28:659][494]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-133.143 Y=47.497 Z=79.817
+[2016.09.21-11.41.28:851][517]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-11.41.28:851][517]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-122.630 Y=45.161 Z=86.427
+[2016.09.21-11.41.29:043][540]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-11.41.29:043][540]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-114.842 Y=43.806 Z=90.205
+[2016.09.21-11.41.29:259][566]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-11.41.29:259][566]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-111.387 Y=44.732 Z=92.164
+[2016.09.21-11.41.29:451][589]LogBlueprintUserMessages: [KeyPressDemo_C_1] Left Controller Position
+[2016.09.21-11.41.29:451][589]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-110.315 Y=44.930 Z=92.935
+[2016.09.21-11.41.31:185][797]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.31:185][797]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-105.475 Y=6.079 Z=90.805
+[2016.09.21-11.41.31:276][808]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.31:277][808]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-100.538 Y=11.134 Z=93.825
+[2016.09.21-11.41.32:335][935]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.32:760][986]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.32:760][986]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-98.158 Y=24.755 Z=101.650
+[2016.09.21-11.41.32:852][997]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.32:852][997]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-98.238 Y=25.026 Z=101.599
+[2016.09.21-11.41.33:043][ 20]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.33:286][ 49]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.33:286][ 49]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-98.488 Y=23.977 Z=100.828
+[2016.09.21-11.41.33:377][ 60]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.33:377][ 60]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-98.378 Y=23.971 Z=100.729
+[2016.09.21-11.41.34:153][153]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.34:477][192]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.34:478][192]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-105.781 Y=77.389 Z=92.310
+[2016.09.21-11.41.34:569][203]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.34:569][203]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-108.551 Y=70.291 Z=92.257
+[2016.09.21-11.41.35:029][258]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.35:213][280]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.35:213][280]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-103.438 Y=15.076 Z=87.424
+[2016.09.21-11.41.35:303][291]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.35:303][291]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-103.769 Y=15.992 Z=87.913
+[2016.09.21-11.41.35:388][301]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.35:455][309]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.35:455][309]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-104.820 Y=16.494 Z=87.340
+[2016.09.21-11.41.35:546][320]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.35:546][320]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-105.153 Y=17.196 Z=87.384
+[2016.09.21-11.41.35:613][328]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.35:671][335]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.35:671][335]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-105.343 Y=16.901 Z=86.886
+[2016.09.21-11.41.35:763][346]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.35:763][346]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-105.173 Y=17.230 Z=87.180
+[2016.09.21-11.41.35:838][355]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.35:888][361]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.35:888][361]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-105.056 Y=16.854 Z=87.019
+[2016.09.21-11.41.35:980][372]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.35:980][372]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-104.845 Y=17.139 Z=87.348
+[2016.09.21-11.41.36:038][379]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.36:096][386]LogBlueprintUserMessages: [KeyPressDemo_C_1] Right Controller Position
+[2016.09.21-11.41.36:097][386]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-104.912 Y=16.839 Z=87.193
+[2016.09.21-11.41.36:188][397]LogBlueprintUserMessages: [KeyPressDemo_C_1] Completed Recording
+[2016.09.21-11.41.36:188][397]LogBlueprintUserMessages: [KeyPressDemo_C_1] X=-105.150 Y=17.251 Z=87.146
+[2016.09.21-11.41.36:247][404]LogBlueprintUserMessages: [KeyPressDemo_C_1] ButtonReleased
+[2016.09.21-11.41.38:913][724]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-11.41.38:959][724]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-11.47.39:068][668]LogSavePackage: Save=185.87ms
+[2016.09.21-11.47.39:068][668]LogSavePackage: Moving '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/KeyPressDemo440CE3B9489E840A874176B3C58BA3E4.tmp' to '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/KeyPressDemo.umap'
+[2016.09.21-11.47.39:072][668]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/KeyPressDemo.umap
+[2016.09.21-11.47.39:103][668]LogFileHelpers: Saving map 'KeyPressDemo' took 0.326
+[2016.09.21-11.47.41:858][979]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-11.47.41:858][979]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.09.21-11.47.41:859][979]PIE: New page: PIE session: KeyPressDemo (21 Sep 2016 14:47:41)
+[2016.09.21-11.47.41:859][979]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_KeyPressDemo
+[2016.09.21-11.47.41:866][979]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007533s)
+[2016.09.21-11.47.41:867][979]LogAIModule: Creating AISystem for world KeyPressDemo
+[2016.09.21-11.47.41:867][979]LogPlayLevel: PIE: World Init took: (0.000625s)
+[2016.09.21-11.47.41:867][979]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/KeyPressDemo.KeyPressDemo to /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo (0.008437s)
+[2016.09.21-11.47.41:893][979]LogInit: XAudio2 using 'Speakers (USB Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.09.21-11.47.41:901][979]LogInit: FAudioDevice initialized.
+[2016.09.21-11.47.41:950][979]LogWorld: Game class is 'GameMode'
+[2016.09.21-11.47.41:953][979]LogWorld: Bringing World /Game/UEDPIE_0_KeyPressDemo.KeyPressDemo up for play (max tick rate 0) at 2016.09.21-13.47.41
+[2016.09.21-11.47.41:953][979]LogWorld: Bringing up level for play took: 0.001937
+[2016.09.21-11.47.41:955][979]PIE: Info Play in editor start time for /Game/UEDPIE_0_KeyPressDemo 0.965
+[2016.09.21-11.47.41:955][979]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-11.47.55:334][583]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-11.47.55:365][583]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel' has LevelScriptBlueprint '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo' with GeneratedClass '/Game/KeyPressDemo.KeyPressDemo_C' with ClassGeneratedBy '/Game/KeyPressDemo.KeyPressDemo:PersistentLevel.KeyPressDemo'
+[2016.09.21-11.49.41:565][527]LogSavePackage: Save=194.25ms
+[2016.09.21-11.49.41:565][527]LogSavePackage: Moving '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Saved/KeyPressDemo0F76D22742EA00F2F5D30DB5F6F63FC9.tmp' to '../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/KeyPressDemo.umap'
+[2016.09.21-11.49.41:567][527]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/OpenVR/Documents/Unreal Projects/PointyStick-keyPressDemo/Content/KeyPressDemo.umap
+[2016.09.21-11.49.52:129][813]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.09.21-11.49.52:851][814]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.09.21-11.49.53:020][814]LogExit: Preparing to exit.
+[2016.09.21-11.49.53:526][814]LogExit: Editor shut down
+[2016.09.21-11.49.53:529][814]LogExit: Transaction tracking system shut down
+[2016.09.21-11.49.53:704][814]LogObj: Freed 0b from 0 cluster array pools.
+[2016.09.21-11.49.53:705][814]LogExit: Object subsystem successfully closed.
+[2016.09.21-11.49.53:728][814]LogD3D11RHI: Shutdown
+[2016.09.21-11.49.53:728][814]LogD3D11RHI: CleanupD3DDevice
+[2016.09.21-11.49.53:785][814]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.09.21-11.49.53:803][814]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (215)
+[2016.09.21-11.49.53:803][814]LogModuleManager: Shutting down and abandoning module BlueprintGraph (214)
+[2016.09.21-11.49.53:803][814]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (213)
+[2016.09.21-11.49.53:803][814]LogModuleManager: Shutting down and abandoning module CrashTracker (212)
+[2016.09.21-11.49.53:803][814]LogModuleManager: Shutting down and abandoning module SceneOutliner (211)
+[2016.09.21-11.49.53:803][814]LogModuleManager: Shutting down and abandoning module WidgetCarousel (210)
+[2016.09.21-11.49.53:803][814]LogModuleManager: Shutting down and abandoning module AddContentDialog (209)
+[2016.09.21-11.49.53:803][814]LogModuleManager: Shutting down and abandoning module GameplayTags (208)
+[2016.09.21-11.49.53:803][814]LogModuleManager: Shutting down and abandoning module EditorWidgets (207)
+[2016.09.21-11.49.53:803][814]LogModuleManager: Shutting down and abandoning module CollectionManager (206)
+[2016.09.21-11.49.53:803][814]LogModuleManager: Shutting down and abandoning module StatsViewer (205)
+[2016.09.21-11.49.53:803][814]LogModuleManager: Shutting down and abandoning module FoliageEdit (204)
+[2016.09.21-11.49.53:803][814]LogModuleManager: Shutting down and abandoning module LandscapeEditor (203)
+[2016.09.21-11.49.53:804][814]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (202)
+[2016.09.21-11.49.53:804][814]LogModuleManager: Shutting down and abandoning module ActorPickerMode (201)
+[2016.09.21-11.49.53:804][814]LogModuleManager: Shutting down and abandoning module GeometryMode (200)
+[2016.09.21-11.49.53:804][814]LogModuleManager: Shutting down and abandoning module TextureAlignMode (199)
+[2016.09.21-11.49.53:804][814]LogModuleManager: Shutting down and abandoning module BspMode (198)
+[2016.09.21-11.49.53:804][814]LogModuleManager: Shutting down and abandoning module HardwareSurvey (197)
+[2016.09.21-11.49.53:804][814]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (196)
+[2016.09.21-11.49.53:804][814]LogModuleManager: Shutting down and abandoning module SequenceRecorder (195)
+[2016.09.21-11.49.53:804][814]LogModuleManager: Shutting down and abandoning module AutomationWorker (194)
+[2016.09.21-11.49.53:804][814]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (193)
+[2016.09.21-11.49.53:804][814]LogModuleManager: Shutting down and abandoning module PlacementMode (192)
+[2016.09.21-11.49.53:804][814]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (191)
+[2016.09.21-11.49.53:804][814]LogModuleManager: Shutting down and abandoning module CharacterAI (190)
+[2016.09.21-11.49.53:804][814]LogModuleManager: Shutting down and abandoning module SmartSnapping (189)
+[2016.09.21-11.49.53:804][814]LogModuleManager: Shutting down and abandoning module SessionServices (188)
+[2016.09.21-11.49.53:804][814]LogModuleManager: Shutting down and abandoning module ViewportSnapping (187)
+[2016.09.21-11.49.53:804][814]LogModuleManager: Shutting down and abandoning module LogVisualizer (186)
+[2016.09.21-11.49.53:804][814]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (185)
+[2016.09.21-11.49.53:804][814]LogModuleManager: Shutting down and abandoning module IntroTutorials (184)
+[2016.09.21-11.49.53:805][814]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (183)
+[2016.09.21-11.49.53:805][814]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (182)
+[2016.09.21-11.49.53:805][814]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (181)
+[2016.09.21-11.49.53:805][814]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (180)
+[2016.09.21-11.49.54:558][814]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (179)
+[2016.09.21-11.49.54:558][814]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (178)
+[2016.09.21-11.49.54:558][814]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (177)
+[2016.09.21-11.49.54:558][814]LogModuleManager: Shutting down and abandoning module MergeActors (176)
+[2016.09.21-11.49.54:558][814]LogModuleManager: Shutting down and abandoning module SizeMap (175)
+[2016.09.21-11.49.54:558][814]LogModuleManager: Shutting down and abandoning module TreeMap (174)
+[2016.09.21-11.49.54:558][814]LogModuleManager: Shutting down and abandoning module ReferenceViewer (173)
+[2016.09.21-11.49.54:558][814]LogModuleManager: Shutting down and abandoning module LocalizationService (172)
+[2016.09.21-11.49.54:558][814]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (171)
+[2016.09.21-11.49.54:558][814]LogModuleManager: Shutting down and abandoning module HardwareTargeting (170)
+[2016.09.21-11.49.54:558][814]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (169)
+[2016.09.21-11.49.54:559][814]LogModuleManager: Shutting down and abandoning module UndoHistory (168)
+[2016.09.21-11.49.54:559][814]LogModuleManager: Shutting down and abandoning module UserFeedback (167)
+[2016.09.21-11.49.54:559][814]LogModuleManager: Shutting down and abandoning module XmlParser (166)
+[2016.09.21-11.49.54:559][814]LogModuleManager: Shutting down and abandoning module Blutility (165)
+[2016.09.21-11.49.54:559][814]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (164)
+[2016.09.21-11.49.54:560][814]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (163)
+[2016.09.21-11.49.54:560][814]LogModuleManager: Shutting down and abandoning module InputBindingEditor (162)
+[2016.09.21-11.49.54:560][814]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (161)
+[2016.09.21-11.49.54:561][814]LogModuleManager: Shutting down and abandoning module SettingsEditor (160)
+[2016.09.21-11.49.54:561][814]LogModuleManager: Shutting down and abandoning module ProjectLauncher (159)
+[2016.09.21-11.49.54:561][814]LogModuleManager: Shutting down and abandoning module SessionFrontend (158)
+[2016.09.21-11.49.54:561][814]LogModuleManager: Shutting down and abandoning module ProfilerClient (157)
+[2016.09.21-11.49.54:561][814]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (156)
+[2016.09.21-11.49.54:561][814]LogModuleManager: Shutting down and abandoning module DeviceManager (155)
+[2016.09.21-11.49.54:594][814]LogModuleManager: Shutting down and abandoning module AutomationController (154)
+[2016.09.21-11.49.54:594][814]LogModuleManager: Shutting down and abandoning module AutomationWindow (153)
+[2016.09.21-11.49.54:594][814]LogModuleManager: Shutting down and abandoning module Layers (152)
+[2016.09.21-11.49.54:594][814]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (151)
+[2016.09.21-11.49.54:594][814]LogModuleManager: Shutting down and abandoning module DetailCustomizations (150)
+[2016.09.21-11.49.54:594][814]LogModuleManager: Shutting down and abandoning module PackagesDialog (149)
+[2016.09.21-11.49.54:595][814]LogModuleManager: Shutting down and abandoning module Persona (148)
+[2016.09.21-11.49.54:595][814]LogModuleManager: Shutting down and abandoning module Kismet (147)
+[2016.09.21-11.49.54:595][814]LogModuleManager: Shutting down and abandoning module GraphEditor (146)
+[2016.09.21-11.49.54:595][814]LogModuleManager: Shutting down and abandoning module ClassViewer (145)
+[2016.09.21-11.49.54:595][814]LogModuleManager: Shutting down and abandoning module Toolbox (144)
+[2016.09.21-11.49.54:595][814]LogModuleManager: Shutting down and abandoning module ModuleUI (143)
+[2016.09.21-11.49.54:595][814]LogModuleManager: Shutting down and abandoning module MovieSceneTools (142)
+[2016.09.21-11.49.54:595][814]LogModuleManager: Shutting down and abandoning module OutputLog (141)
+[2016.09.21-11.49.54:595][814]LogModuleManager: Shutting down and abandoning module GammaUI (140)
+[2016.09.21-11.49.54:596][814]LogModuleManager: Shutting down and abandoning module Documentation (139)
+[2016.09.21-11.49.54:597][814]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (138)
+[2016.09.21-11.49.54:597][814]LogModuleManager: Shutting down and abandoning module AnalyticsET (137)
+[2016.09.21-11.49.54:597][814]LogModuleManager: Shutting down and abandoning module Analytics (136)
+[2016.09.21-11.49.54:597][814]LogModuleManager: Shutting down and abandoning module PortalServices (135)
+[2016.09.21-11.49.54:597][814]LogModuleManager: Shutting down and abandoning module PortalRpc (134)
+[2016.09.21-11.49.54:597][814]LogModuleManager: Shutting down and abandoning module MessagingRpc (133)
+[2016.09.21-11.49.54:597][814]LogModuleManager: Shutting down and abandoning module GameplayDebugger (132)
+[2016.09.21-11.49.54:597][814]LogModuleManager: Shutting down and abandoning module AITestSuite (131)
+[2016.09.21-11.49.54:597][814]LogModuleManager: Shutting down and abandoning module AIModule (130)
+[2016.09.21-11.49.54:597][814]LogModuleManager: Shutting down and abandoning module ProfilerService (129)
+[2016.09.21-11.49.54:656][814]LogModuleManager: Shutting down and abandoning module TaskGraph (128)
+[2016.09.21-11.49.54:656][814]LogModuleManager: Shutting down and abandoning module SlateRemote (127)
+[2016.09.21-11.49.54:656][814]LogModuleManager: Shutting down and abandoning module SteamVRController (126)
+[2016.09.21-11.49.54:656][814]LogModuleManager: Shutting down and abandoning module SteamVR (125)
+[2016.09.21-11.49.54:656][814]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (124)
+[2016.09.21-11.49.54:656][814]LogModuleManager: Shutting down and abandoning module OculusLibrary (123)
+[2016.09.21-11.49.54:657][814]LogModuleManager: Shutting down and abandoning module OculusInput (122)
+[2016.09.21-11.49.54:657][814]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (121)
+[2016.09.21-11.49.54:657][814]LogModuleManager: Shutting down and abandoning module CableComponent (120)
+[2016.09.21-11.49.54:657][814]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (119)
+[2016.09.21-11.49.54:657][814]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (118)
+[2016.09.21-11.49.54:657][814]LogModuleManager: Shutting down and abandoning module HTML5Networking (117)
+[2016.09.21-11.49.54:657][814]LogModuleManager: Shutting down and abandoning module SuperSearch (116)
+[2016.09.21-11.49.54:657][814]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (115)
+[2016.09.21-11.49.54:657][814]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (114)
+[2016.09.21-11.49.54:657][814]LogModuleManager: Shutting down and abandoning module PluginBrowser (113)
+[2016.09.21-11.49.54:657][814]LogModuleManager: Shutting down and abandoning module EpicSurvey (112)
+[2016.09.21-11.49.54:657][814]LogModuleManager: Shutting down and abandoning module DesktopPlatform (111)
+[2016.09.21-11.49.54:658][814]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (110)
+[2016.09.21-11.49.54:658][814]LogModuleManager: Shutting down and abandoning module UObjectPlugin (109)
+[2016.09.21-11.49.54:658][814]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (108)
+[2016.09.21-11.49.54:658][814]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (107)
+[2016.09.21-11.49.54:658][814]LogModuleManager: Shutting down and abandoning module SourceControl (106)
+[2016.09.21-11.49.54:658][814]LogModuleManager: Shutting down and abandoning module GitSourceControl (105)
+[2016.09.21-11.49.54:658][814]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (104)
+[2016.09.21-11.49.54:658][814]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (103)
+[2016.09.21-11.49.54:658][814]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (102)
+[2016.09.21-11.49.54:658][814]LogModuleManager: Shutting down and abandoning module MeshPaint (101)
+[2016.09.21-11.49.54:658][814]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (100)
+[2016.09.21-11.49.54:658][814]LogModuleManager: Shutting down and abandoning module HotReload (99)
+[2016.09.21-11.49.54:660][814]LogModuleManager: Shutting down and abandoning module MainFrame (98)
+[2016.09.21-11.49.54:660][814]LogModuleManager: Shutting down and abandoning module LevelEditor (97)
+[2016.09.21-11.49.54:663][814]LogModuleManager: Shutting down and abandoning module ContentBrowser (96)
+[2016.09.21-11.49.54:666][814]LogModuleManager: Shutting down and abandoning module Paper2DEditor (95)
+[2016.09.21-11.49.54:667][814]LogModuleManager: Shutting down and abandoning module UdpMessaging (94)
+[2016.09.21-11.49.54:767][814]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (93)
+[2016.09.21-11.49.54:767][814]LogModuleManager: Shutting down and abandoning module Paper2D (92)
+[2016.09.21-11.49.54:767][814]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (91)
+[2016.09.21-11.49.54:767][814]LogModuleManager: Shutting down and abandoning module Media (90)
+[2016.09.21-11.49.54:767][814]LogModuleManager: Shutting down and abandoning module WmfMedia (89)
+[2016.09.21-11.49.54:767][814]LogModuleManager: Shutting down and abandoning module MediaAssets (88)
+[2016.09.21-11.49.54:767][814]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (87)
+[2016.09.21-11.49.54:767][814]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (86)
+[2016.09.21-11.49.54:767][814]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (85)
+[2016.09.21-11.49.54:767][814]LogModuleManager: Shutting down and abandoning module VREditor (84)
+[2016.09.21-11.49.54:767][814]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (83)
+[2016.09.21-11.49.54:767][814]LogModuleManager: Shutting down and abandoning module PropertyEditor (82)
+[2016.09.21-11.49.54:767][814]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (81)
+[2016.09.21-11.49.54:767][814]LogModuleManager: Shutting down and abandoning module FunctionalTesting (80)
+[2016.09.21-11.49.54:767][814]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (79)
+[2016.09.21-11.49.54:767][814]LogModuleManager: Shutting down and abandoning module Sequencer (78)
+[2016.09.21-11.49.54:768][814]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (77)
+[2016.09.21-11.49.54:768][814]LogModuleManager: Shutting down and abandoning module MessageLog (76)
+[2016.09.21-11.49.54:768][814]LogModuleManager: Shutting down and abandoning module AssetTools (75)
+[2016.09.21-11.49.54:768][814]LogModuleManager: Shutting down and abandoning module UMGEditor (74)
+[2016.09.21-11.49.54:768][814]LogModuleManager: Shutting down and abandoning module UMG (73)
+[2016.09.21-11.49.54:768][814]LogModuleManager: Shutting down and abandoning module SlateReflector (72)
+[2016.09.21-11.49.54:768][814]LogModuleManager: Shutting down and abandoning module Slate (71)
+[2016.09.21-11.49.54:768][814]LogModuleManager: Shutting down and abandoning module EditorStyle (70)
+[2016.09.21-11.49.54:771][814]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (69)
+[2016.09.21-11.49.54:771][814]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (68)
+[2016.09.21-11.49.54:771][814]LogModuleManager: Shutting down and abandoning module XAudio2 (67)
+[2016.09.21-11.49.54:771][814]LogModuleManager: Shutting down and abandoning module Networking (65)
+[2016.09.21-11.49.54:771][814]LogModuleManager: Shutting down and abandoning module Core (64)
+[2016.09.21-11.49.54:771][814]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (63)
+[2016.09.21-11.49.54:775][814]LogModuleManager: Shutting down and abandoning module AssetRegistry (62)
+[2016.09.21-11.49.55:227][814]LogModuleManager: Shutting down and abandoning module KismetCompiler (61)
+[2016.09.21-11.49.55:227][814]LogModuleManager: Shutting down and abandoning module PhysXFormats (60)
+[2016.09.21-11.49.55:227][814]LogModuleManager: Shutting down and abandoning module MeshUtilities (59)
+[2016.09.21-11.49.55:227][814]LogModuleManager: Shutting down and abandoning module DerivedDataCache (58)
+[2016.09.21-11.49.55:325][814]LogDerivedDataCache: Shutdown
+[2016.09.21-11.49.55:325][814]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (57)
+[2016.09.21-11.49.55:325][814]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (56)
+[2016.09.21-11.49.55:325][814]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (55)
+[2016.09.21-11.49.55:325][814]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (54)
+[2016.09.21-11.49.55:325][814]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (53)
+[2016.09.21-11.49.55:325][814]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (52)
+[2016.09.21-11.49.55:325][814]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (51)
+[2016.09.21-11.49.55:325][814]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (50)
+[2016.09.21-11.49.55:325][814]LogModuleManager: Shutting down and abandoning module ImageWrapper (49)
+[2016.09.21-11.49.55:325][814]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (48)
+[2016.09.21-11.49.55:325][814]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (47)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (46)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (45)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (44)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (43)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (42)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (41)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (40)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.09.21-11.49.55:326][814]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.09.21-11.49.55:327][814]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.09.21-11.49.55:327][814]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.09.21-11.49.55:327][814]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.09.21-11.49.55:327][814]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.09.21-11.49.55:327][814]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.09.21-11.49.55:327][814]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.09.21-11.49.55:327][814]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.09.21-11.49.58:338][814]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.09.21-11.49.58:338][814]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.09.21-11.49.58:338][814]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.09.21-11.49.58:338][814]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.09.21-11.49.58:339][814]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.09.21-11.49.58:339][814]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.09.21-11.49.58:339][814]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.09.21-11.49.58:384][814]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.09.21-11.49.58:384][814]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.09.21-11.49.58:384][814]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.09.21-11.49.58:384][814]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.09.21-11.49.58:384][814]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.09.21-11.49.58:384][814]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.09.21-11.49.58:384][814]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.09.21-11.49.58:384][814]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.09.21-11.49.58:384][814]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.09.21-11.49.58:384][814]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.09.21-11.49.58:388][814]LogExit: Exiting.
+[2016.09.21-11.49.58:395][814]Log file closed, 09/21/16 13:49:58
