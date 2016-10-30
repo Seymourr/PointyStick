@@ -38,7 +38,8 @@ TArray<FHighScoreNode> UHighScore::setHighScore(FString name, int score)
 	if (PlatformFile.CreateDirectoryTree(*fd)){
 		FString res = "";
 		for (int32 i = 0; i < curr.Num(); ++i) {
-			res += curr[i].p_name + " " + curr[i].p_score + "\n";
+			
+			res += curr[i].p_name + " " + FString::FromInt(curr[i].p_score) + "\n";
 		}
 		FFileHelper::SaveStringToFile(res, *fp);
 	}
