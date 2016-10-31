@@ -50,4 +50,33 @@ void UReadWriteScore::writeScore(FScoreNode n) {
 	}
 }
 
+void UReadWriteScore::writeCoordinate(float x, float y, float z, FString symbol) {
+	IPlatformFile& PlatformFile = FPlatformFileManager::Get().GetPlatformFile();
+	FString file = "";
+	FFileHelper::LoadFileToString(file, *(fd_new + symbol + ".txt"));
+
+	if (!PlatformFile.DirectoryExists(*fd_new)) {
+		//create directory if it not exist
+		PlatformFile.CreateDirectory(*fd_new);
+	}
+	if(PlatformFile.CreateDirectoryTree(*fd_new)) {
+		FString res = file + FString::FromInt(x) + " " + FString::FromInt(y) + FString::FromInt(z) + "\n";
+		FFileHelper::SaveStringToFile(res, *(fd_new + symbol + ".txt"));
+	}
+}
+
+void UReadWriteScore::saveSequence(FString symbol) {
+	IPlatformFile& PlatformFile = FPlatformFileManager::Get().GetPlatformFile();
+	FString file = "";
+	FFileHelper::LoadFileToString(file, *(fd_new + symbol + ".txt"));
+
+	if (!PlatformFile.DirectoryExists(*fd_new)) {
+		//create directory if it not exist
+		PlatformFile.CreateDirectory(*fd_new);
+	}
+	if (PlatformFile.CreateDirectoryTree(*fd_new)) {
+		FString res = file + ":" + "\n";
+		FFileHelper::SaveStringToFile(res, *(fd_new + symbol + ".txt"));
+	}
+}
 

@@ -29,6 +29,12 @@ class POINTYSTICK_API UReadWriteScore : public UBlueprintFunctionLibrary
 
 	UFUNCTION(BlueprintCallable, Category = "HighScore")
 		static void writeScore(FScoreNode score);
+
+	UFUNCTION(BlueprintCallable, Category = "HighScore")
+		static void writeCoordinate(float x, float y, float z, FString symbol);
+
+	UFUNCTION(BlueprintCallable, Category = "HighScore")
+		static void saveSequence(FString symbol);
 	
 	
 };
