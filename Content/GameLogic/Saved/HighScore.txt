@@ -1,5 +1,5 @@
-Jack 255
-M 100
-Snilsson 100
-Snilsson 100
-Snilsson 100
+Jack 16
+Jack 0
+Mt 0
+M 0
+Snilsson 0
